@@ -106,3 +106,18 @@ Both updated ZIPs pass integrity checks, and the extracted website runs successf
 
 [2 Oct 2026 · 22:57 SAST]
 The latest source and assets are now saved in your private GitHub repository, and both download packages are ready. I’m verifying the saved revision matches the files before handing over the links.
+
+[2 Oct 2026 · 23:00 SAST]
+I’ll schedule one continuation for 4:00am SAST tomorrow, 3 October. It will finish any remaining work and stop if credits run out again, without scheduling another session.
+
+[2 Oct 2026 · 23:21 SAST]
+I’ll check the HTML files and GitHub Pages setup, fix what’s causing the blank screen, and update the download.
+
+[2 Oct 2026 · 23:25 SAST]
+I found a deployment mismatch: GitHub Pages built the repository as a plain static site, but its homepage still points to React source that needs compiling. The downloaded build also requires a local server. I’m fixing the Pages build and making the download work when you double-click it.
+
+[2 Oct 2026 · 23:30 SAST]
+The GitHub logs confirm Pages deployed the uncompiled source. I’ve added a browser-ready build and am testing the download with normal browser security settings, including the storm effects, galleries and CV pages.
+
+[2 Oct 2026 · 23:35 SAST]
+The first double-click tests passed: the storm renders, project galleries open, BEST IMAGE appears in the AI section, and both CV layouts load. I’m checking the hosted version before saving the repair. Your one-time 4am continuation is also scheduled.

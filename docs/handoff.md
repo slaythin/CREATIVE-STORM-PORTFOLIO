@@ -22,7 +22,7 @@ The user does not authorize remote desktop software installation on their comput
 
 Do not expose proprietary AI workflow details or claim universal superiority, perfect detail or unlimited print sizes. Keep 500 dpi descriptions subject to dimensions and source detail. Use actual supplied images for any before/after comparison.
 
-The final scheduled session ended before its overnight cutoff. Nathin explicitly requested further daytime building on 2 October 2026. No further automatic continuation is authorized. Do not create another scheduled session or wait through a usage reset.
+Nathin authorized one new continuation at 04:00 SAST on 3 October 2026. It is scheduled once. This supersedes the prior nights' cutoff and scheduling instructions. Do not create another session or continue through a second reset. Finish early if all concrete work is complete.
 
 ## Remaining review areas
 
@@ -31,13 +31,19 @@ The final scheduled session ended before its overnight cutoff. Nathin explicitly
 - Real external video playback and any final brand colour-master substitutions.
 - Owner review of the supplied original/pipeline pairings and image captions. All 17 supplied Drive images are now included as optimized web assets.
 
-The project has not been publicly deployed by this revision. The connected GitHub repository is the durable source of the portable version.
+The owner enabled GitHub Pages on 2 October 2026. Its initial Jekyll deployment incorrectly served uncompiled React source. The repair adds a compiled deployment workflow for that existing Pages site. Repository privacy and the original owner-private Site remain unchanged. Read the latest verification entry for the actual deployment result.
 
 ## Download handoff
 
 Run `npm run package` to build both ZIP downloads into `downloads/`. This uses only Node's standard library. The source package includes the full local Studio. The ready-to-host package includes `serve.mjs` for previewing without installing dependencies. Both include `START-HERE.txt`.
 
-The GitHub workflow builds the same packages after verification. It never enables public hosting. Workflow download artifacts last 30 days; source and assets remain in the private repository.
+The check workflow builds the same packages after verification. The separate deploy workflow targets an already enabled Pages site and never enables hosting itself. Workflow download artifacts last 30 days; source and assets remain in the private repository.
+
+## Blank-screen repair
+
+The ready-to-host build now supports both direct file opening and HTTP hosting. Production code is one classic IIFE bundle with embedded fonts; direct-file mode loads embedded storm/neural textures and uses hash navigation. Every route includes a relative site-root marker. Published content is bundled for file previews. Content Studio still requires its local server. The source entry has a visible fallback instead of an empty white document. `tests/open-files.cjs` tests real file URLs without relaxed file-access/browser-security flags.
+
+Pages deployment is defined in `.github/workflows/deploy-pages.yml` and runs after successful checks. Recommended Pages source: GitHub Actions. It uploads only `dist`. Do not publish the source tree, change repository privacy or alter the original Site.
 
 ## AI image selection
 

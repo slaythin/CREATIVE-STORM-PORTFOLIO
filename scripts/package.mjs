@@ -62,26 +62,33 @@ Your repository remains private. No public hosting is enabled automatically.
 source.push({name:'START-HERE.txt',data:sourceGuide});
 const ready=await collect(path.join(root,'dist'));
 ready.push({name:'serve.mjs',data:await readFile(path.join(root,'scripts/static-preview.mjs'))});
-ready.push({name:'START-HERE.txt',data:`CREATIVE STORM — READY TO HOST
+ready.push({name:'START-HERE.txt',data:`CREATIVE STORM — READY TO HOST / DOUBLE-CLICK PREVIEW
 
 This folder contains the built website, all portfolio images and local fonts.
 Upload its contents to a static web host when you are ready to publish.
 It also supports a repository subfolder, such as /CREATIVE-STORM-PORTFOLIO/.
 
-LOCAL PREVIEW
+OPEN WITHOUT INSTALLING ANYTHING
+Extract this whole ZIP, then double-click index.html. Keep the assets folder beside it.
+Project, AI and CV HTML pages can also open directly.
+
+OPTIONAL HTTP PREVIEW
 If Node.js is already installed, open a terminal in this folder and run:
   node serve.mjs
 Open http://127.0.0.1:4173/
 No dependency installation is needed for this preview.
 
 If you already use VS Code Live Server, open this folder and serve index.html.
-Use a local HTTP server; double-clicking index.html is not supported by ES modules.
+Both double-click and HTTP previews are supported. The editable-source index.html
+is different: it requires npm run dev.
 
 EDIT CONTENT
 Use the separate editable-source package for the private local Content Studio.
 This built copy is read-only. Original video embeds require internet access.
 
-Nothing has been deployed publicly by creating this package.
+This package does not change hosting or access settings.
+For GitHub Pages, deploy this complete built folder or use the source repository
+workflow with Settings > Pages > Source set to GitHub Actions.
 `});
 const packages=[];
 packages.push(await zip('creative-storm-source.zip',source.map(f=>({...f,name:'creative-storm-source/'+f.name}))));

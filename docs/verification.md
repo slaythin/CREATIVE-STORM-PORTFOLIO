@@ -40,3 +40,17 @@ The original 247 MB archive download failed, but all 17 images were subsequently
 The six backend tests, seventeen Chromium interaction groups and five subfolder checks passed on the revision containing the supplied AI images. The backend publish test also verifies preservation of the AI hero and gallery data. Screenshots of the AI hero at 1440×960 and 390×844 were captured; no horizontal overflow was reported.
 
 The source and ready-to-host ZIPs are produced with `node scripts/package.mjs`. The packaging script includes all local assets and supplies a START-HERE guide in each archive. The built archive includes a zero-dependency Node preview server. Both ZIPs passed CRC integrity and content checks. The extracted ready-to-host build passed a Chromium check using its bundled zero-dependency preview server: BEST IMAGE loaded, all 14 AI gallery entries were present, and the direct Build it route opened its 23-image gallery without captured JavaScript errors.
+
+## Blank-screen repair — 2 October, 23:36 SAST
+
+GitHub's initial Pages run 37065748058 used Jekyll and deployed the source entry, which referenced `/src/main.tsx`. The source requires compilation. The previous ready-to-host build also used ES modules and was verified over HTTP only; direct file opening was not supported. These are separate causes of the reported blank pages.
+
+The repaired build uses a classic browser bundle, embedded fonts, a relative root marker on every generated HTML page and file-specific embedded storm/neural textures. File previews use hash navigation and bundled published content. HTTP navigation, direct routes and local Studio remain supported. A visible startup message handles missing files. The source entry remains a development entry.
+
+Passed on the repaired build:
+- TypeScript and a clean production build, with no build warnings apart from the environment's npm proxy-setting notice.
+- All 17 existing Chromium interaction groups, including editor loading, AI hero/gallery, both CVs, pause, mobile and reduced motion.
+- All five repository-subfolder checks, including full direct project reloads and CV printing.
+- Five new real `file://` checks: homepage/fonts/WebGL, navigation/gallery/lightbox/Back, direct AI HTML with BEST IMAGE and 14 images, both CV layouts, and a 390-pixel mobile preview. No browser file-access exceptions or disabled web-security flags were used. No captured JavaScript, shader or CORS errors. The double-click homepage screenshot was visually inspected.
+
+The GitHub Pages deployment workflow now uploads the compiled `dist` folder after the checks pass. It reads an existing Pages configuration with enablement disabled, so it does not create a site or alter access settings. The recommended Pages source is GitHub Actions. Live deployment verification is recorded separately after the workflow runs.

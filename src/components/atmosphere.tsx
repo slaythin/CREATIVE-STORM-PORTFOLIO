@@ -1,4 +1,5 @@
 import {useEffect,useRef} from 'react';
+import * as Three from 'three';
 import {localURL} from '@/compat/link';
 import {useMotion} from '@/lib/motion';
 import {createNeuralScene} from './neural-scene';
@@ -9,7 +10,7 @@ export function Atmosphere({path}:{path:string}){
  const host=useRef<HTMLDivElement>(null),pathRef=useRef(path),motionRef=useRef(true);const {motion}=useMotion();
  pathRef.current=path;motionRef.current=motion;
  useEffect(()=>{let cancelled=false,dispose=()=>{};
- import('three').then(T=>{
+ Promise.resolve(Three).then(T=>{
   if(cancelled||!host.current)return;
   const container=host.current;let renderer:InstanceType<typeof T.WebGLRenderer>;
   try{renderer=new T.WebGLRenderer({antialias:false,alpha:true,powerPreference:'low-power'});}catch{return;}
@@ -19,8 +20,9 @@ export function Atmosphere({path}:{path:string}){
   const pointer=new T.Vector2(),ray=new T.Raycaster(),targetPointer=new T.Vector2();
   let time=0,last=0,frame=0,nextFlash=8,pulseAt=-100,flashAt=-100,hoverAt=-100,brainProgress=0,visible=!document.hidden;
   let seed=419;const random=()=>{seed=(seed*1664525+1013904223)>>>0;return seed/4294967296;};
-  const texture=new T.TextureLoader().load(localURL('/assets/storm-hero.png'),()=>restart());texture.colorSpace=T.SRGBColorSpace;
-  const neuralTexture=new T.TextureLoader().load(localURL('/assets/neural-atmosphere.png'),()=>restart());neuralTexture.colorSpace=T.SRGBColorSpace;
+  const offlineTextures=(window as Window&{__stormTextures?:Record<string,string>}).__stormTextures;
+  const texture=new T.TextureLoader().load(offlineTextures?.storm||localURL('/assets/storm-hero.png'),()=>restart());texture.colorSpace=T.SRGBColorSpace;
+  const neuralTexture=new T.TextureLoader().load(offlineTextures?.neural||localURL('/assets/neural-atmosphere.png'),()=>restart());neuralTexture.colorSpace=T.SRGBColorSpace;
   const uniforms={uImage:{value:texture},uNeural:{value:neuralTexture},uPulse:{value:-100},uTime:{value:0},uPointer:{value:pointer},uResolution:{value:new T.Vector2(innerWidth,innerHeight)},uBrain:{value:0},uFlash:{value:0},uScroll:{value:0}};
   const atmosphere=new T.ShaderMaterial({depthWrite:false,depthTest:false,uniforms,
    vertexShader:`varying vec2 vUv;void main(){vUv=uv;gl_Position=vec4(position.xy,0.,1.);}`,

@@ -18,9 +18,11 @@ Open **http://127.0.0.1:5173**. Open **http://127.0.0.1:5173/studio** to edit co
 The GitHub **Check and package portfolio** workflow creates a `creative-storm-downloads` artifact after its checks pass. It contains:
 
 - **creative-storm-source.zip** — editable source, local Content Studio and every portfolio asset.
-- **creative-storm-ready-to-host.zip** — the built website, assets and a zero-dependency preview server.
+- **creative-storm-ready-to-host.zip** — the built website that also opens directly by double-clicking its `index.html`.
 
-Each ZIP has a `START-HERE.txt`. For the built version, run `node serve.mjs` in its extracted folder, then open http://127.0.0.1:4173/. It requires Node.js but no `npm install`. Existing VS Code Live Server installations can also serve the built folder.
+Each ZIP has a `START-HERE.txt`. **For a preview without installing anything, extract the entire ready-to-host ZIP and double-click `index.html`.** Keep the assets folder beside it. The HTML files inside the project, AI and CV folders also open directly. File previews use hash navigation and bundled content; galleries, fonts, storm and neural effects work locally. External video embeds still need internet and may require an HTTP host.
+
+You can also run `node serve.mjs` in the built folder, then open http://127.0.0.1:4173/. This optional HTTP preview needs Node.js but no `npm install`. Existing VS Code Live Server installations can also serve the built folder. The editable-source `index.html` is a development entry and must be opened using `npm run dev`.
 
 To recreate both downloads from source, run `npm run package`. ZIP creation uses Node's standard library. GitHub artifacts expire after 30 days; the private repository retains the source, assets and packaging script.
 
@@ -51,7 +53,15 @@ npm start
 
 The production site is at **http://127.0.0.1:4173**. Upload the contents of `dist` to a static host to publish the public portfolio. Direct HTML route folders are generated for all visible projects and both CV layouts. The application also supports a project subfolder, including a GitHub Pages repository path.
 
-Keep the source repository private if desired. A private repository does not automatically make a GitHub Pages website private. Hosting is deliberately not enabled by this project.
+The repository remains private. The owner enabled a separate GitHub Pages deployment on 2 October 2026. The included deployment workflow targets that existing site; it does not create a Pages site or change its audience.
+
+## GitHub Pages
+
+GitHub Pages must deploy the **compiled `dist` folder**, not the source `index.html` pointing at `/src/main.tsx`. In repository **Settings → Pages → Build and deployment → Source**, choose **GitHub Actions**. The `Deploy portfolio to GitHub Pages` workflow builds and deploys `dist` after `Check and package portfolio` succeeds. It also has a manual Run workflow button. If Pages is not already enabled, the workflow stops rather than creating a new public site.
+
+The build uses relative assets and generated route folders, so it works under `/CREATIVE-STORM-PORTFOLIO/` without changing image paths. Keep the repository private; changing the Pages build source does not require making the repository public.
+
+If you see a blank page from an old download, replace it with the corrected ready-to-host package. The corrected build uses a classic browser bundle, embedded local fonts, a file-safe texture loader and a visible startup message if files are missing.
 
 For the local editor, use `npm run dev` or `npm start`; a static host serves the portfolio only. Don't expose this development server on the internet.
 
