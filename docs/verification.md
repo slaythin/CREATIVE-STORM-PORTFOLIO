@@ -54,3 +54,7 @@ Passed on the repaired build:
 - Five new real `file://` checks: homepage/fonts/WebGL, navigation/gallery/lightbox/Back, direct AI HTML with BEST IMAGE and 14 images, both CV layouts, and a 390-pixel mobile preview. No browser file-access exceptions or disabled web-security flags were used. No captured JavaScript, shader or CORS errors. The double-click homepage screenshot was visually inspected.
 
 The GitHub Pages deployment workflow now uploads the compiled `dist` folder after the checks pass. It reads an existing Pages configuration with enablement disabled, so it does not create a site or alter access settings. The recommended Pages source is GitHub Actions. Live deployment verification is recorded separately after the workflow runs.
+
+Delivery verification: both corrected ZIPs passed CRC checks. The actual ready-to-host ZIP was extracted to a separate folder and all five direct-file browser checks passed again.
+
+At 23:40 SAST, GitHub's repository API reported `private: true` and `has_pages: false`; the previous Pages URL returned HTTP 404. The earlier Jekyll deployment was successful, but no active Pages site is currently reported. Live repair cannot be confirmed until the owner enables Pages with Source set to GitHub Actions. The workflow intentionally does not create hosting or change visibility. The source repair is saved as commit `d2b7cc0792d37b60984423531b56bc8324d45a58`. Its independent GitHub check run is 37068019741; consult that run for the final remote result.

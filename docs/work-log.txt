@@ -121,3 +121,11 @@ The GitHub logs confirm Pages deployed the uncompiled source. I’ve added a bro
 
 [2 Oct 2026 · 23:35 SAST]
 The first double-click tests passed: the storm renders, project galleries open, BEST IMAGE appears in the AI section, and both CV layouts load. I’m checking the hosted version before saving the repair. Your one-time 4am continuation is also scheduled.
+
+[2 Oct 2026 · 23:38 SAST]
+The repaired download is ready: creative-storm-ready-to-host.zip. Extract the whole ZIP, then double-click index.html.
+
+All 27 local browser checks passed. The fix is saved to GitHub; I’m checking whether Pages accepts the new deployment.
+
+[2 Oct 2026 · 23:40 SAST]
+The extracted ZIP passes the double-click tests too. GitHub now reports that Pages is disabled for this repository, and the site URL returns 404. The deployment workflow is ready, but Pages will need to be enabled with GitHub Actions selected as its source.

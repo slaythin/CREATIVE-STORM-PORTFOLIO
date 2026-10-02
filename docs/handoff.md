@@ -48,3 +48,5 @@ Pages deployment is defined in `.github/workflows/deploy-pages.yml` and runs aft
 ## AI image selection
 
 The shared Drive folder is documented in `docs/ai-assets.json`. Its BEST IMAGE.png is the AI hero, work-grid card, home-page AI image and first gallery entry. All 14 pipeline images are included. Three originals are used in side-by-side comparisons, with an optional overlay slider. The Studio exposes the hero and gallery controls. Preserve the existing eight imported projects separately.
+
+Latest hosting observation (2 October, 23:40 SAST): repository API `has_pages` is false and the previous URL is HTTP 404. The downloadable build is verified. Do not claim the live site is fixed or automatically enable a new site. The owner needs Settings → Pages → Source: GitHub Actions, then the Deploy portfolio workflow can run. Check run 37068019741 is for the tested code repair d2b7cc0.
