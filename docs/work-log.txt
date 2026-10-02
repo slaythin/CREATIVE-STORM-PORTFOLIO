@@ -1,0 +1,48 @@
+CREATIVE STORM — PUBLIC PROGRESS LOG
+Exact public updates retained from the evening build and final overnight continuation.
+Earlier 30 September updates are recorded in the separate Creative-Storm-Work-Log.txt delivered with the first Site. Tool panels and private reasoning are not reproduced here.
+
+[1 Oct 2026 · 20:25 SAST]
+I’m resuming the portfolio from the saved work and checking what survived the workspace cleanup. I’m using the Library skill to recover the assets, then I’ll finish and save the downloadable project to your connected GitHub repository.
+
+[1 Oct 2026 · 20:27 SAST]
+The original project and approved tornado image are recovered, including all eight collections, galleries, videos and both CV layouts. The unfinished portable copy was lost during cleanup, so I’m restoring that version from the saved source and implementation notes, then saving it to GitHub.
+
+[1 Oct 2026 · 20:30 SAST]
+The portable project now has a local content editor and direct routes for the work and CV pages. A browser is also available for testing here, so I can check the actual rendering and interactions before delivery.
+
+[1 Oct 2026 · 20:33 SAST]
+The approved tornado now has flowing cloud distortion, pointer parallax, drifting particles and localized lightning. The neural scene uses real 3D geometry with electrical pulses that travel along its connections. I’m refining the typography and glass panels, then checking how everything looks and behaves in the browser.
+
+[1 Oct 2026 · 20:39 SAST]
+I’m continuing now. I’ve also scheduled the final overnight session for 02:00 SAST tomorrow, 2 October. That session will stop if credits run out, won’t continue through another reset, and retains your earlier 03:30 cutoff.
+
+[1 Oct 2026 · 20:41 SAST]
+The first browser pass rendered without JavaScript or shader errors, and the mobile page fits the screen without horizontal overflow. I found a few visual issues worth fixing: the heading wraps awkwardly, the neural connections are too faint, and project descriptions need a darker panel behind them. I’m correcting those before testing the links and editor.
+
+[1 Oct 2026 · 20:53 SAST]
+All six editor tests pass, including draft saving, publishing, upload validation and protection against conflicting edits. The portfolio renders in the test browser. I’m now checking gallery clicks, CV navigation, pause controls and mobile behaviour while preparing the complete source and assets for GitHub.
+
+[2 Oct 2026 · 02:03 SAST]
+I’m continuing from the restored redesign. The portable source and assets are still available; I’m finishing the interaction checks and saving the complete project to GitHub. I’ll stop by 03:30 SAST, with no further continuation tonight.
+
+[2 Oct 2026 · 02:09 SAST]
+The restored project builds successfully, and all six editor tests still pass. The source and bundled artwork are being saved to GitHub. I’m checking the revised layouts and the clickable gallery, CV and motion controls next.
+
+[2 Oct 2026 · 02:14 SAST]
+The browser check caught a clipped heading on mobile; I’ve corrected it. I’ve also moved the creative-mind copy aside so the neural scene has room to show. The next checks cover opening artwork, keyboard gallery controls, both CV pages and motion preferences.
+
+[2 Oct 2026 · 02:17 SAST]
+The gallery links, arrow-key browsing, both CV pages, art filter, local Studio and mobile menu passed the browser checks. The test browser closed during the final route sweep, so I’m adjusting the test setup to finish that check. A source checkpoint is now saved in your private repository.
+
+[2 Oct 2026 · 02:20 SAST]
+All 11 browser interaction checks pass, with no captured JavaScript or shader errors. The imported content also has no missing image references. I’m finishing the asset transfer, then checking the build under a GitHub-style project URL and preparing the download.
+
+[2 Oct 2026 · 02:23 SAST]
+The storm now includes branching lightning geometry as well as localized illumination, and the neural scene has larger glowing cells for a clearer focal point. The artwork upload is nearly complete. I’m checking the final build under a repository subfolder so its links and assets work on GitHub-style hosting.
+
+[2 Oct 2026 · 02:28 SAST]
+The subfolder checks now pass: images load, project links and direct reloads work, and the CV prints with a white background. I fixed the directory redirect issue uncovered by that check. I’m saving the final files and verification notes, then packaging the downloads.
+
+[2 Oct 2026 · 02:30 SAST]
+The final browser checks and a clean dependency installation pass. All portfolio assets have now transferred. I also have a fresh download route for the AI archive, so I’m trying to recover the real comparison images before closing out the package.

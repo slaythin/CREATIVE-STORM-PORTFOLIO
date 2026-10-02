@@ -35,7 +35,7 @@ const server=http.createServer(async(req,res)=>{try{
  if(u.pathname.startsWith('/api/'))return json(res,404,{error:'Unknown API route'});
  if(!['GET','HEAD'].includes(req.method))return json(res,405,{error:'Method not allowed'});
  const base=path.join(ROOT,API_ONLY?'public':'dist');let decoded;try{decoded=decodeURIComponent(u.pathname)}catch{return json(res,400,{error:'Invalid path'})}let file=path.resolve(base,'.'+decoded);if(file!==base&&!file.startsWith(base+path.sep))return json(res,403,{error:'Invalid path'});
- try{const info=await stat(file);if(info.isDirectory())file=path.join(file,'index.html');await stat(file)}catch{if(!API_ONLY&&!path.extname(file))file=path.join(base,'index.html');else return json(res,404,{error:'File not found'})}
+ try{const info=await stat(file);if(info.isDirectory()){if(!u.pathname.endsWith('/')){res.writeHead(308,{Location:u.pathname+'/'+u.search});return res.end();}file=path.join(file,'index.html');}await stat(file)}catch{if(!API_ONLY&&!path.extname(file))file=path.join(base,'index.html');else return json(res,404,{error:'File not found'})}
  let data;try{data=await readFile(file)}catch{return json(res,404,{error:'Build the website first with npm run build.'})}res.writeHead(200,{'Content-Type':mime[path.extname(file)]||'application/octet-stream','X-Content-Type-Options':'nosniff','Cache-Control':'no-cache'});res.end(req.method==='HEAD'?undefined:data);
  }catch(e){json(res,e.status||500,{error:e.status?e.message:'Something could not be saved. Please try again.'})}});
 server.listen(PORT,'127.0.0.1',()=>console.log(`Creative Storm: http://127.0.0.1:${PORT}`));

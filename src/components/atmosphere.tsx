@@ -45,7 +45,7 @@ export function Atmosphere({path}:{path:string}){
    positions.push(new T.Vector3(side*(.42+Math.abs(Math.sin(lat)*Math.cos(theta))*2.5*r),Math.cos(lat)*2.45*r,Math.sin(lat)*Math.sin(theta)*1.9*r));
   }
   const geometry=new T.IcosahedronGeometry(.030,2),materials:InstanceType<typeof T.MeshPhysicalMaterial>[]=[];
-  positions.forEach((p,i)=>{const material=new T.MeshPhysicalMaterial({color:0xd6edf4,metalness:.35,roughness:.32,clearcoat:1,emissive:0x529dc9,emissiveIntensity:1.1,transparent:true,opacity:0});const core=new T.Mesh(geometry,material);core.position.copy(p);core.scale.setScalar(.65+random()*1.3);core.userData.index=i;cores.push(core);materials.push(material);brain.add(core);});
+  positions.forEach((p,i)=>{const material=new T.MeshPhysicalMaterial({color:0xd6edf4,metalness:.35,roughness:.32,clearcoat:1,emissive:0x529dc9,emissiveIntensity:1.1,transparent:true,opacity:0});const core=new T.Mesh(geometry,material);core.position.copy(p);core.scale.setScalar(i%11===0?4.2+random()*1.5:.55+random()*.85);core.userData.index=i;cores.push(core);materials.push(material);brain.add(core);});
   positions.forEach((p,a)=>{const close=positions.map((v,b)=>({b,d:p.distanceTo(v)})).filter(v=>v.b!==a).sort((x,y)=>x.d-y.d).slice(0,3);for(const {b,d}of close)if(!edges.some(e=>e.a===b&&e.b===a))edges.push({a,b,length:d});});
   const fibres:number[]=[],arrivals:number[]=[],fibreMeta:{a:number;b:number;t:number}[]=[];
   for(const edge of edges){const a=positions[edge.a],b=positions[edge.b];for(let strand=0;strand<3;strand++){
@@ -59,13 +59,16 @@ export function Atmosphere({path}:{path:string}){
    vertexShader:`attribute float arrival;varying float vArrival;varying float vDepth;void main(){vArrival=arrival;vec4 mv=modelViewMatrix*vec4(position,1.);vDepth=-mv.z;gl_Position=projectionMatrix*mv;}`,
    fragmentShader:`uniform float uTime,uPulse,uOpacity;varying float vArrival,vDepth;void main(){float t=uTime-uPulse-vArrival*.30;float pulse=exp(-pow(t*4.4,2.));vec3 color=mix(vec3(.16,.46,.58),vec3(.62,.75,1.),pulse);float alpha=(.44+pulse*.56)*uOpacity;gl_FragColor=vec4(color,alpha);}`});
   const lines=new T.LineSegments(fibreGeometry,fibreMaterial);brain.add(lines);
-  const glowGeometry=new T.BufferGeometry();glowGeometry.setAttribute('position',new T.Float32BufferAttribute(positions.flatMap(p=>p.toArray()),3));glowGeometry.setAttribute('arrival',new T.Float32BufferAttribute(distances,1));
+  const glowGeometry=new T.BufferGeometry();glowGeometry.setAttribute('position',new T.Float32BufferAttribute(positions.flatMap(p=>p.toArray()),3));glowGeometry.setAttribute('arrival',new T.Float32BufferAttribute(distances,1));glowGeometry.setAttribute('glowSize',new T.Float32BufferAttribute(positions.map((_,i)=>i%11===0?850:210),1));
   const glowMaterial=new T.ShaderMaterial({uniforms:neuralUniforms,transparent:true,depthWrite:false,blending:T.AdditiveBlending,
-   vertexShader:`attribute float arrival;varying float vArrival;varying float vDepth;void main(){vArrival=arrival;vec4 mv=modelViewMatrix*vec4(position,1.);vDepth=-mv.z;gl_PointSize=clamp(260./(-mv.z),10.,60.);gl_Position=projectionMatrix*mv;}`,
-   fragmentShader:`uniform float uTime,uPulse,uOpacity;varying float vArrival,vDepth;void main(){float d=length(gl_PointCoord-.5)*2.;if(d>1.)discard;float pulse=exp(-pow((uTime-uPulse-vArrival*.30)*4.,2.));float glow=exp(-d*d*6.);vec3 c=mix(vec3(.23,.62,.78),vec3(.79,.71,1.),pulse);gl_FragColor=vec4(c,glow*(.60+pulse*.4)*uOpacity);}`});brain.add(new T.Points(glowGeometry,glowMaterial));
+   vertexShader:`attribute float arrival,glowSize;varying float vArrival;varying float vDepth;void main(){vArrival=arrival;vec4 mv=modelViewMatrix*vec4(position,1.);vDepth=-mv.z;gl_PointSize=clamp(glowSize/(-mv.z),10.,110.);gl_Position=projectionMatrix*mv;}`,
+   fragmentShader:`uniform float uTime,uPulse,uOpacity;varying float vArrival,vDepth;void main(){float d=length(gl_PointCoord-.5)*2.;if(d>1.)discard;float pulse=exp(-pow((uTime-uPulse-vArrival*.30)*4.,2.));float glow=exp(-d*d*6.);float core=exp(-d*d*65.);vec3 c=mix(vec3(.22,.58,.85),vec3(.7,.55,1.),pulse);gl_FragColor=vec4(c+core*.85,glow*(.75+pulse*.25)*uOpacity);}`});brain.add(new T.Points(glowGeometry,glowMaterial));
   // Very fine suspended particles give the scene true perspective and depth.
   const dustGeometry=new T.BufferGeometry(),dust:number[]=[];for(let i=0;i<220;i++)dust.push((random()-.5)*20,(random()-.5)*13,(random()-.5)*9);
   dustGeometry.setAttribute('position',new T.Float32BufferAttribute(dust,3));const dustMaterial=new T.PointsMaterial({color:0x88bbce,size:.012,transparent:true,opacity:.23,depthWrite:false});const dustCloud=new T.Points(dustGeometry,dustMaterial);scene.add(dustCloud);
+  const boltGeometry=new T.BufferGeometry(),boltPositions:number[]=[];
+  let bx=5.1,by=4.5;for(let j=0;j<23;j++){const nx=bx+(random()-.5)*.43,ny=by-.35;boltPositions.push(bx,by,-1,nx,ny,-1);if(j===7||j===13){let xx=nx,yy=ny;for(let k=0;k<6;k++){const x2=xx+.14+random()*.21,y2=yy-.18-random()*.15;boltPositions.push(xx,yy,-1,x2,y2,-1);xx=x2;yy=y2;}}bx=nx;by=ny;}
+  boltGeometry.setAttribute('position',new T.Float32BufferAttribute(boltPositions,3));const boltMaterial=new T.LineBasicMaterial({color:0xd1eaff,transparent:true,opacity:0,depthWrite:false,blending:T.AdditiveBlending});const bolt=new T.LineSegments(boltGeometry,boltMaterial);scene.add(bolt);
   scene.add(new T.AmbientLight(0x778caa,1));const blue=new T.PointLight(0x55baff,25,25),violet=new T.PointLight(0x9570ff,18,20);blue.position.set(-2,3,4);violet.position.set(4,-1,3);scene.add(blue,violet);
   function fire(index=0){if(!motionRef.current)return;distances.fill(Infinity);distances[index]=0;const visited=new Set<number>();while(visited.size<count){let node=-1,min=Infinity;for(let i=0;i<count;i++)if(!visited.has(i)&&distances[i]<min){min=distances[i];node=i;}if(node<0)break;visited.add(node);for(const edge of edges){const other=edge.a===node?edge.b:edge.b===node?edge.a:-1;if(other>=0)distances[other]=Math.min(distances[other],min+edge.length);}}
    const attr=fibreGeometry.getAttribute('arrival');fibreMeta.forEach((m,i)=>attr.setX(i,Math.min(distances[m.a]+positions[m.a].distanceTo(positions[m.b])*m.t,distances[m.b]+positions[m.a].distanceTo(positions[m.b])*(1-m.t))));attr.needsUpdate=true;
@@ -79,7 +82,7 @@ export function Atmosphere({path}:{path:string}){
   function render(now:number){frame=0;if(cancelled||!visible)return;const dt=Math.min(.035,(now-last)/1000||.016);last=now;const active=motionRef.current&&!pathRef.current.startsWith('/studio');if(active)time+=dt;
    pointer.lerp(active?targetPointer:new T.Vector2(),.035);brainProgress=active?brainProgress+(progress()-brainProgress)*.065:progress();uniforms.uBrain.value=brainProgress;
    if(active&&time>nextFlash){flashAt=time;nextFlash=time+10+random()*12;}
-   const f=time-flashAt;const flash=active?Math.exp(-f*5)*Math.max(0,Math.sin(f*23))*.75:0;uniforms.uTime.value=time;uniforms.uFlash.value=flash;
+   const f=time-flashAt;const flash=active?Math.exp(-f*5)*Math.max(0,Math.sin(f*23))*.75:0;uniforms.uTime.value=time;uniforms.uFlash.value=flash;boltMaterial.opacity=flash*(1-brainProgress)*1.9;
    document.documentElement.style.setProperty('--storm-light',String(flash*.36));
    neuralUniforms.uOpacity.value=brainProgress;neuralUniforms.uTime.value=time;
    brain.rotation.y=.08*Math.sin(time*.08)+pointer.x*.13;brain.rotation.x=pointer.y*.06;brain.position.x=innerWidth<800?.55:2.0;brain.position.y=Math.sin(time*.15)*.08;brain.scale.setScalar(innerWidth<800?.8:1.06);
