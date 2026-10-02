@@ -6,6 +6,6 @@ export type Content = {
   projects: Project[];
   brands: { name: string; logo: string }[];
   comparisons: Comparison[];
-  ai: { title: string; intro: string; detail: string; printNote: string };
+  ai: { title: string; intro: string; detail: string; printNote: string; hero?: string; heroAlt?: string; gallery?: Media[] };
   cv: { experience: { organisation: string; role: string; dates: string; detail: string }[]; education: { year: string; title: string; institution: string; distinction: boolean }[]; skills: string[]; achievements: string[] };
 };

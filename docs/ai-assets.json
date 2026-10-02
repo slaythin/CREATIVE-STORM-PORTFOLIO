@@ -1,0 +1,262 @@
+{
+  "sourceFolder": "https://drive.google.com/drive/folders/1M869R2F08HJbOHLPdQZEM3tXmp0D22ce",
+  "selection": "BEST IMAGE.png is the AI hero, home AI feature and gallery cover.",
+  "delivery": "WebP at source size or a maximum 2560-pixel edge; no generation or retouching applied. Full print masters stay in the supplied Drive folder.",
+  "images": [
+    {
+      "sourceName": "BEST IMAGE.png",
+      "sourceFileId": "1tUj4QeAE73jbEb9akZcHQuDfzGgVlJ3u",
+      "group": "pipeline",
+      "sourceSize": [
+        1141,
+        1379
+      ],
+      "webSize": [
+        1141,
+        1379
+      ],
+      "asset": "/assets/ai/best-image.webp",
+      "bytes": 189502
+    },
+    {
+      "sourceName": "approved_portrait_675x900mm_300ppi.png",
+      "sourceFileId": "1n1usShkUlxIH5_jPAEMPrhbY4f14ZbVW",
+      "group": "pipeline",
+      "sourceSize": [
+        7972,
+        10630
+      ],
+      "webSize": [
+        1920,
+        2560
+      ],
+      "asset": "/assets/ai/pipeline-00.webp",
+      "bytes": 825618
+    },
+    {
+      "sourceName": "ChatGPT Image Aug 2, 2026, 09_08_35 PM.png",
+      "sourceFileId": "1hawxjT8a-YHxOzz-ExUvWHSXi2g-gNYK",
+      "group": "pipeline",
+      "sourceSize": [
+        1054,
+        1492
+      ],
+      "webSize": [
+        1054,
+        1492
+      ],
+      "asset": "/assets/ai/pipeline-02.webp",
+      "bytes": 302420
+    },
+    {
+      "sourceName": "ChatGPT Image Aug 21, 2026, 11_58_16 AM.png",
+      "sourceFileId": "1o045izYLu4Ib3lKF9ef6TZi2Kjt3vJGL",
+      "group": "pipeline",
+      "sourceSize": [
+        1166,
+        1349
+      ],
+      "webSize": [
+        1166,
+        1349
+      ],
+      "asset": "/assets/ai/pipeline-03.webp",
+      "bytes": 306574
+    },
+    {
+      "sourceName": "ChatGPT Image Aug 25, 2026 at 03_21_04 PM (1).png",
+      "sourceFileId": "1EHvC1Csqup29BgzrivRf9rD-3msy0zQ9",
+      "group": "pipeline",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "webSize": [
+        1086,
+        1448
+      ],
+      "asset": "/assets/ai/pipeline-04.webp",
+      "bytes": 259032
+    },
+    {
+      "sourceName": "ChatGPT Image Aug 25, 2026 at 03_21_04 PM (2).png",
+      "sourceFileId": "1ecDRLXTXQhLE5HqZkc1m0Ok63XnBwsMb",
+      "group": "pipeline",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "webSize": [
+        1024,
+        1536
+      ],
+      "asset": "/assets/ai/pipeline-05.webp",
+      "bytes": 247624
+    },
+    {
+      "sourceName": "ChatGPT Image Aug 25, 2026 at 03_21_04 PM (3).png",
+      "sourceFileId": "1fqt75WvEuwHABZpMagZ2B_ZAuFc6Af0H",
+      "group": "pipeline",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "webSize": [
+        1024,
+        1536
+      ],
+      "asset": "/assets/ai/pipeline-06.webp",
+      "bytes": 477622
+    },
+    {
+      "sourceName": "ChatGPT Image Aug 25, 2026 at 03_21_04 PM (4).png",
+      "sourceFileId": "1_WWwwpGoyawGJnhqEMYI6662q3e5oAua",
+      "group": "pipeline",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "webSize": [
+        1024,
+        1536
+      ],
+      "asset": "/assets/ai/pipeline-07.webp",
+      "bytes": 158180
+    },
+    {
+      "sourceName": "ChatGPT Image Jul 23, 2026, 09_55_02 AM.png",
+      "sourceFileId": "1IWWqeUUFFKKiu0WtVh8WjpsI_AUo1YuU",
+      "group": "pipeline",
+      "sourceSize": [
+        1375,
+        1144
+      ],
+      "webSize": [
+        1375,
+        1144
+      ],
+      "asset": "/assets/ai/pipeline-08.webp",
+      "bytes": 182698
+    },
+    {
+      "sourceName": "construction-worker-fedora-aviators-build-it-2900x2400mm-200dpi.jpg",
+      "sourceFileId": "1yUEOks1p-4Jacv-RrFSD2FcR5Dc5-30i",
+      "group": "pipeline",
+      "sourceSize": [
+        22835,
+        18898
+      ],
+      "webSize": [
+        2560,
+        2119
+      ],
+      "asset": "/assets/ai/pipeline-09.webp",
+      "bytes": 340398
+    },
+    {
+      "sourceName": "construction-worker-lowered-fedora-photographic-2900x2400mm-200dpi.jpg",
+      "sourceFileId": "1Tff92YVc_IAOaeiAcsUufr1CyqJv-9zU",
+      "group": "pipeline",
+      "sourceSize": [
+        22835,
+        18898
+      ],
+      "webSize": [
+        2560,
+        2119
+      ],
+      "asset": "/assets/ai/pipeline-10.webp",
+      "bytes": 386432
+    },
+    {
+      "sourceName": "leaf_blower_composite_proof_2x_v3.png",
+      "sourceFileId": "1tI9USyvj9T2prL8ECn9Ahn9xsfPkLAWO",
+      "group": "pipeline",
+      "sourceSize": [
+        2108,
+        2984
+      ],
+      "webSize": [
+        1808,
+        2560
+      ],
+      "asset": "/assets/ai/pipeline-11.webp",
+      "bytes": 617678
+    },
+    {
+      "sourceName": "paint_roller_portrait_675x900mm_300ppi-2.png",
+      "sourceFileId": "14pAizzCl9WG1m0t5kCfZVn60cQL-wwrx",
+      "group": "pipeline",
+      "sourceSize": [
+        7972,
+        10630
+      ],
+      "webSize": [
+        1920,
+        2560
+      ],
+      "asset": "/assets/ai/pipeline-12.webp",
+      "bytes": 859814
+    },
+    {
+      "sourceName": "paint_roller_portrait_675x900mm_300ppi.png",
+      "sourceFileId": "15uvy3ecD0jf_Wd_e_c__QuWKotVB28jF",
+      "group": "pipeline",
+      "sourceSize": [
+        7972,
+        10630
+      ],
+      "webSize": [
+        1920,
+        2560
+      ],
+      "asset": "/assets/ai/pipeline-13.webp",
+      "bytes": 861464
+    },
+    {
+      "sourceName": "ChatGPT Image Aug 18, 2026, 11_39_40 AM.png",
+      "sourceFileId": "1UdYD42vgyzxWGlM40tMe-C2L2uSGABha",
+      "group": "original",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "webSize": [
+        1086,
+        1448
+      ],
+      "asset": "/assets/ai/original-00.webp",
+      "bytes": 226178
+    },
+    {
+      "sourceName": "ChatGPT Image Aug 18, 2026, 11_45_31 AM.png",
+      "sourceFileId": "1mhLtsP2i2rQZN0AGzo7vKEAEGeSn5MTA",
+      "group": "original",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "webSize": [
+        1086,
+        1448
+      ],
+      "asset": "/assets/ai/original-01.webp",
+      "bytes": 245468
+    },
+    {
+      "sourceName": "ChatGPT Image Aug 21, 2026, 08_39_06 AM.png",
+      "sourceFileId": "1-p6wAzxXoKCL19rektiV8lx6CzUr_yPR",
+      "group": "original",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "webSize": [
+        1086,
+        1448
+      ],
+      "asset": "/assets/ai/original-02.webp",
+      "bytes": 361472
+    }
+  ]
+}

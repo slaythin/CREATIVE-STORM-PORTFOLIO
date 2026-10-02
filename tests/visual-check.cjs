@@ -1,6 +1,6 @@
 const {spawn}=require('node:child_process');const fs=require('node:fs/promises');
 const {chromium}=require(process.env.PLAYWRIGHT_PATH||'playwright');
-(async()=>{const server=spawn(process.execPath,['server/index.mjs'],{stdio:['ignore','pipe','inherit'],env:{...process.env,PORT:'4187'}});await new Promise((resolve,reject)=>{server.stdout.once('data',resolve);server.once('error',reject)});
+(async()=>{const server=spawn(process.execPath,['server/index.mjs'],{stdio:['ignore','pipe','inherit'],env:{...process.env,PORT:'4187'}});await new Promise((resolve,reject)=>{server.stdout.once('data',resolve);server.once('error',reject);server.once('exit',code=>reject(new Error('Test server exited before ready: '+code)))});
 let browser;try{let launch={headless:true};if(process.env.CHROMIUM_PACKAGE){const chrome=require(process.env.CHROMIUM_PACKAGE);launch={...launch,executablePath:process.env.CHROMIUM_EXECUTABLE||await chrome.executablePath(),args:[...chrome.args,'--enable-unsafe-swiftshader']};}
 browser=await chromium.launch(launch);const page=await browser.newPage({viewport:{width:1440,height:960},deviceScaleFactor:1});const errors=[];page.on('pageerror',e=>errors.push(String(e)));page.on('console',m=>{if(m.type()==='error')errors.push(m.text())});await fs.mkdir('test-results',{recursive:true});
 await page.goto('http://127.0.0.1:4187/');await page.waitForTimeout(2600);await page.screenshot({path:'test-results/01-home-desktop.png'});

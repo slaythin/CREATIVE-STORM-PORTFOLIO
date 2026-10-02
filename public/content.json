@@ -825,12 +825,108 @@
       "logo": "/assets/accord-logo-white.png"
     }
   ],
-  "comparisons": [],
+  "comparisons": [
+    {
+      "id": "paint-direction",
+      "title": "Paint. Personality. Precision.",
+      "before": "/assets/ai/original-00.webp",
+      "after": "/assets/ai/pipeline-13.webp",
+      "caption": "The supplied initial image and its print-prepared pipeline version. Look at the clothing, roller edges and painted surfaces."
+    },
+    {
+      "id": "paint-composition",
+      "title": "Give the idea more presence.",
+      "before": "/assets/ai/original-01.webp",
+      "after": "/assets/ai/pipeline-12.webp",
+      "caption": "Two treatments of the paint campaign. The framing and subject scale differ; side-by-side view keeps those choices visible."
+    },
+    {
+      "id": "portrait-direction",
+      "title": "Character is in the details.",
+      "before": "/assets/ai/original-02.webp",
+      "after": "/assets/ai/pipeline-00.webp",
+      "caption": "The supplied original and the approved pipeline portrait. Compare the shirt, wall texture, lighting and portrait framing."
+    }
+  ],
   "ai": {
     "title": "Artificial intelligence. Very human standards.",
     "intro": "Give me a million possibilities. I’ll find the one that actually works.",
     "detail": "I’ve developed a bespoke, art-directed AI image workflow built around the things a creative notices: believable texture, deliberate lighting, recognisable character and a composition that earns its place. The technology expands what’s possible. My judgement makes it useful.",
-    "printNote": "Large-format artwork can be prepared to a specified print brief, including 500 dpi where the agreed dimensions and source detail support it. Every deliverable is assessed at its intended output size."
+    "printNote": "Large-format artwork can be prepared to a specified print brief, including 500 dpi where the agreed dimensions and source detail support it. Every deliverable is assessed at its intended output size.",
+    "hero": "/assets/ai/best-image.webp",
+    "heroAlt": "Detailed studio portrait of a bearded man",
+    "gallery": [
+      {
+        "src": "/assets/ai/best-image.webp",
+        "alt": "Detailed studio portrait of a bearded man",
+        "caption": "Character, light and skin texture."
+      },
+      {
+        "src": "/assets/ai/pipeline-09.webp",
+        "alt": "Construction worker in a branded fedora and aviator sunglasses",
+        "caption": "Campaign character / close portrait."
+      },
+      {
+        "src": "/assets/ai/pipeline-04.webp",
+        "alt": "Woman with tied-back hair wearing a pink top in natural light",
+        "caption": "Portrait study / expression."
+      },
+      {
+        "src": "/assets/ai/pipeline-00.webp",
+        "alt": "Portrait in a striped shirt and white fedora against a textured blue wall",
+        "caption": "Portrait study / blue wall."
+      },
+      {
+        "src": "/assets/ai/pipeline-06.webp",
+        "alt": "Smiling woman wearing a colourful headwrap and patterned clothing",
+        "caption": "Portrait study / fabric and expression."
+      },
+      {
+        "src": "/assets/ai/pipeline-11.webp",
+        "alt": "Man carrying a red leaf blower in a garden",
+        "caption": "Campaign composite / outdoor tools."
+      },
+      {
+        "src": "/assets/ai/pipeline-10.webp",
+        "alt": "Construction worker with lowered fedora and folded arms",
+        "caption": "Campaign character / full composition."
+      },
+      {
+        "src": "/assets/ai/pipeline-05.webp",
+        "alt": "Smiling man in a neutral shirt outdoors",
+        "caption": "Portrait study / natural light."
+      },
+      {
+        "src": "/assets/ai/pipeline-12.webp",
+        "alt": "Dancing painter holding a roller against a red and graphite wall",
+        "caption": "Paint campaign / print-prepared study."
+      },
+      {
+        "src": "/assets/ai/pipeline-07.webp",
+        "alt": "Smiling woman seated by a car window",
+        "caption": "Portrait study / environmental light."
+      },
+      {
+        "src": "/assets/ai/pipeline-02.webp",
+        "alt": "Portrait with white fedora and dark sunglasses in a garden",
+        "caption": "Character study / natural light."
+      },
+      {
+        "src": "/assets/ai/pipeline-03.webp",
+        "alt": "Close-up portrait with red sunglasses and a white fedora",
+        "caption": "Portrait study / colour and character."
+      },
+      {
+        "src": "/assets/ai/pipeline-08.webp",
+        "alt": "Construction worker in a check shirt with folded arms",
+        "caption": "Campaign character / studio atmosphere."
+      },
+      {
+        "src": "/assets/ai/pipeline-13.webp",
+        "alt": "Painter in white clothing with a red paint roller",
+        "caption": "Paint campaign / alternate print study."
+      }
+    ]
   },
   "cv": {
     "experience": [

@@ -46,3 +46,60 @@ The subfolder checks now pass: images load, project links and direct reloads wor
 
 [2 Oct 2026 · 02:30 SAST]
 The final browser checks and a clean dependency installation pass. All portfolio assets have now transferred. I also have a fresh download route for the AI archive, so I’m trying to recover the real comparison images before closing out the package.
+
+[2 Oct 2026 · 10:12 SAST]
+I’m continuing from the saved build. I’ll focus on the storm-to-neuron visuals, check readability and interactions, and prepare a downloadable package with the assets and running instructions.
+
+[2 Oct 2026 · 10:13 SAST]
+The saved pages and galleries are intact. The main visual gap is the neural scene: it reads more like a wire network than living, electrical tissue. I’m adding organic branching and depth, and giving that scene more space beside the text.
+
+[2 Oct 2026 · 10:15 SAST]
+The approved tornado will remain the visual foundation. I’m refining its motion and lighting, adding shaped neuron bodies and branching fibres, and keeping the interactive scene clear of the biography text.
+
+[2 Oct 2026 · 10:19 SAST]
+The new neural geometry is in place, and “The mind” page now has a dedicated interaction control and a narrower reading column. I also fixed the paused scene’s resize handling. I’m rendering this revision now to check how it actually looks.
+
+[2 Oct 2026 · 10:22 SAST]
+The revised scene renders without captured JavaScript or shader errors, and the mobile page still fits the screen. I’m refining the glow and preparing two downloads: editable source with the Content Studio, and a ready-to-host build.
+
+[2 Oct 2026 · 10:25 SAST]
+The storm now has moving mist geometry in front of the approved image, adding perspective depth. I’m checking the galleries, CVs, editor and motion controls next. The AI comparison archive still fails to download, so I’m leaving its image slots empty.
+
+[2 Oct 2026 · 10:26 SAST]
+The gallery, CV, editor, mobile and subfolder checks pass on this revision, with no captured JavaScript or shader errors. I’m adding a direct check that pause freezes the scene, then testing the extracted download before saving the revision to GitHub.
+
+[2 Oct 2026 · 10:28 SAST]
+The pause and resize checks pass, and both ZIPs pass their integrity checks. I’m using the image-generation skill for one cinematic neural backdrop to bring more of the reference’s close-up texture into the scene, alongside the live 3D interaction.
+
+[2 Oct 2026 · 10:30 SAST]
+I’ll check that folder for the genuine comparison images and use its organisation to identify the pairs. I’m also integrating the new neural backdrop with the electrical interaction.
+
+[2 Oct 2026 · 14:58 SAST]
+I’ll use the file labelled BEST IMAGE as the AI showcase’s hero and gallery cover. I’m checking the Drive folder now, then I’ll add the images and finish the downloadable build.
+
+[2 Oct 2026 · 15:00 SAST]
+The Drive folder is accessible. I found BEST IMAGE.png in AI PIPELINE, along with 13 other pipeline images and three originals. I’ll feature it on the AI page and its work-grid card, and check which images support a fair comparison.
+
+[2 Oct 2026 · 15:03 SAST]
+All 17 images have downloaded, including BEST IMAGE. I’m preparing web-sized copies and placing that portrait first in the AI gallery. The larger print files will remain available in your Drive folder.
+
+[2 Oct 2026 · 15:06 SAST]
+BEST IMAGE is now connected to the AI hero, the work-grid cover and the home-page AI feature. I’m adding all 14 pipeline images to the gallery and setting comparisons to open side by side, so changes in framing are easy to see.
+
+[2 Oct 2026 · 15:09 SAST]
+The AI page now has the selected hero, a full image gallery and three supplied comparisons. The editor can change the hero across all three placements at once. I’m checking those paths and the mobile layout before packaging.
+
+[2 Oct 2026 · 15:11 SAST]
+The checks confirm that BEST IMAGE appears on the AI work card, hero and first gallery image. All 17 browser checks and five subfolder checks pass. I’m inspecting the screenshots and saving the new assets and source to your private repository.
+
+[2 Oct 2026 · 22:46 SAST]
+The last run was interrupted during the final save. The build and browser checks had passed, but I hadn’t confirmed the GitHub update or delivered the finished downloads. I’m checking those now.
+
+[2 Oct 2026 · 22:47 SAST]
+The latest files are intact, including BEST IMAGE, the 14-image AI gallery and all three comparisons. The unfinished part is delivery: GitHub and the ZIPs still contain the older version. I’m completing that save and packaging step now.
+
+[2 Oct 2026 · 22:51 SAST]
+The updated downloads are building, and BEST IMAGE has been saved to GitHub. I’m transferring the remaining assets and checking the extracted website package. This work still needs to finish before the download is ready to hand over.
+
+[2 Oct 2026 · 22:54 SAST]
+Both updated ZIPs pass integrity checks, and the extracted website runs successfully with BEST IMAGE and all 14 AI gallery entries. The new images have transferred to GitHub; I’m completing the repository update now.

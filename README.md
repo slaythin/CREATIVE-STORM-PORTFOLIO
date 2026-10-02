@@ -7,11 +7,22 @@ A portable portfolio built with React, Vite and Three.js. Eight complete project
 Use Node.js 22.13 or newer. No remote desktop software, ChatGPT subscription, Adobe Portfolio account or cloud credentials are required to run the project.
 
 ```sh
-npm install
+npm ci
 npm run dev
 ```
 
 Open **http://127.0.0.1:5173**. Open **http://127.0.0.1:5173/studio** to edit content.
+
+## Download packages
+
+The GitHub **Check and package portfolio** workflow creates a `creative-storm-downloads` artifact after its checks pass. It contains:
+
+- **creative-storm-source.zip** — editable source, local Content Studio and every portfolio asset.
+- **creative-storm-ready-to-host.zip** — the built website, assets and a zero-dependency preview server.
+
+Each ZIP has a `START-HERE.txt`. For the built version, run `node serve.mjs` in its extracted folder, then open http://127.0.0.1:4173/. It requires Node.js but no `npm install`. Existing VS Code Live Server installations can also serve the built folder.
+
+To recreate both downloads from source, run `npm run package`. ZIP creation uses Node's standard library. GitHub artifacts expire after 30 days; the private repository retains the source, assets and packaging script.
 
 ## Content Studio
 
@@ -61,7 +72,7 @@ Both CV versions link to one another. The alternative CV has a print stylesheet;
 
 ## Motion and interaction
 
-The approved tornado image is the atmosphere foundation. A WebGL shader adds cloud displacement, mist and pointer parallax. Three.js renders genuine 3D neural geometry, curved connections, depth particles and travelling electrical impulses. This hybrid technique is not a reconstructed volumetric tornado or fluid simulation.
+The approved tornado image is the atmosphere foundation. A WebGL shader adds cloud displacement and pointer parallax, with real perspective mist geometry in front of the image. A separate generated neural atmosphere provides close-up texture behind the live neural geometry. Three.js renders genuine 3D neural geometry: shaped cell bodies, tapering dendrites, fine curved connections, depth particles and travelling electrical impulses. Cells use instancing to keep draw calls low. This hybrid technique is not a reconstructed volumetric tornado or fluid simulation.
 
 Scroll to move from the project vortex into a readable grid, then into the creative mind. Hover over neurons, click the scene or use **Fire a thought**. The header pause control stops background motion and the brand strip. Reduced-motion preferences are respected; mobile uses a direct grid. A still background remains when WebGL is unavailable.
 
@@ -69,6 +80,6 @@ Scroll to move from the project vortex into a readable grid, then into the creat
 
 Imported from Nathin's reference portfolio: https://a21731935.myportfolio.com/work. Brand marks remain the property of their respective owners. Portfolio images, original CV and the approved tornado image are bundled locally. Video embeds and external project websites still require internet access; they are not downloaded video files.
 
-The AI comparison section appears only when genuine paired images have been added. The oversized comparison archive was not available for this build. No demonstration results or comparison claims have been fabricated, and proprietary pipeline steps are not disclosed. Print resolution is described subject to the agreed dimensions and source quality.
+The AI section includes all 14 supplied pipeline images and three original-versus-pipeline comparisons. BEST IMAGE.png is used for the AI hero, the work-grid card and the home-page AI feature. WebP delivery copies are bundled; full print masters remain in the supplied Drive folder. The local Studio can change the hero, reorder the AI gallery and edit comparisons. No demonstration results have been fabricated, and proprietary pipeline steps are not disclosed. Print resolution is described subject to the agreed dimensions and source quality.
 
 See `docs/verification.md` for tested behaviour and remaining limitations.
