@@ -16,13 +16,13 @@ This is Nathin Pillay's portable portfolio project. It continues the imported co
 
 ## Preserve
 
-Keep all imported artwork, captions, descriptions and original video embeds. Both `/cv` and `/cv/alternate` remain available for the owner's comparison. Keep the private repository private. Do not change the original hosted Site's owner-private audience.
+Keep all imported artwork, captions, descriptions and original video embeds. Both `/cv` and `/cv/alternate` remain available for the owner's comparison. Preserve repository access settings; do not change visibility. Do not change the original hosted Site's owner-private audience.
 
 The user does not authorize remote desktop software installation on their computer. This project runs in VS Code or can be built and hosted from GitHub.
 
 Do not expose proprietary AI workflow details or claim universal superiority, perfect detail or unlimited print sizes. Keep 500 dpi descriptions subject to dimensions and source detail. Use actual supplied images for any before/after comparison.
 
-Nathin authorized one new continuation at 04:00 SAST on 3 October 2026. It is scheduled once. This supersedes the prior nights' cutoff and scheduling instructions. Do not create another session or continue through a second reset. Finish early if all concrete work is complete.
+The user moved the final one-time continuation to 05:00 SAST on 3 October 2026. That session verified the repaired live site and completed the handoff. No further continuation or second reset is authorized.
 
 ## Remaining review areas
 
@@ -50,3 +50,11 @@ Pages deployment is defined in `.github/workflows/deploy-pages.yml` and runs aft
 The shared Drive folder is documented in `docs/ai-assets.json`. Its BEST IMAGE.png is the AI hero, work-grid card, home-page AI image and first gallery entry. All 14 pipeline images are included. Three originals are used in side-by-side comparisons, with an optional overlay slider. The Studio exposes the hero and gallery controls. Preserve the existing eight imported projects separately.
 
 Latest hosting observation (2 October, 23:40 SAST): repository API `has_pages` is false and the previous URL is HTTP 404. The downloadable build is verified. Do not claim the live site is fixed or automatically enable a new site. The owner needs Settings → Pages → Source: GitHub Actions, then the Deploy portfolio workflow can run. Check run 37068019741 is for the tested code repair d2b7cc0.
+
+## Current handoff — 3 October 2026, 05:06 SAST
+
+The compiled site is live at https://slaythin.github.io/CREATIVE-STORM-PORTFOLIO/. The successful deployment is run 37068857342, rerun after the owner enabled Pages. Main remains c88f996a9a073ea7fa963bd006a07825075f4545. Live homepage, AI and CV URLs return HTTP 200 and compiled HTML. Fresh Chromium rendering confirmed six opening project covers, WebGL, no startup fallback, BEST IMAGE and all 14 AI images, with no captured JavaScript errors. Earlier live checks also verified the full 23-image Build it gallery and 18 alternative-CV entries.
+
+GitHub currently reports the repository public and Pages enabled. This visibility change was observed before this session; the assistant did not change it. Preserve current settings and the separate original Site's owner-private audience.
+
+Recent automatic Pages runs used Jekyll. Select Settings → Pages → Source: GitHub Actions to prevent future source-branch deployments replacing the compiled site. The connector cannot edit that setting. Documentation is saved on handoff-2026-10-03, rather than pushing main and potentially triggering that old source deployment. Merge those notes after the Pages source is corrected. Application code needs no additional changes for this repair.

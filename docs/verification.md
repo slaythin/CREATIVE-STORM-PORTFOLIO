@@ -58,3 +58,13 @@ The GitHub Pages deployment workflow now uploads the compiled `dist` folder afte
 Delivery verification: both corrected ZIPs passed CRC checks. The actual ready-to-host ZIP was extracted to a separate folder and all five direct-file browser checks passed again.
 
 At 23:40 SAST, GitHub's repository API reported `private: true` and `has_pages: false`; the previous Pages URL returned HTTP 404. The earlier Jekyll deployment was successful, but no active Pages site is currently reported. Live repair cannot be confirmed until the owner enables Pages with Source set to GitHub Actions. The workflow intentionally does not create hosting or change visibility. The source repair is saved as commit `d2b7cc0792d37b60984423531b56bc8324d45a58`. Its independent GitHub check run is 37068019741; consult that run for the final remote result.
+
+## Live verification — 3 October 2026, 05:06 SAST
+
+The previous disabled-Pages observation is superseded. Deployment run 37068857342 completed successfully after a retry against the owner's enabled Pages site. Check run 37068461224 passed for main c88f996a9a073ea7fa963bd006a07825075f4545.
+
+Fresh certificate-validated HTTP requests returned 200 and compiled HTML for the homepage, AI page and alternative CV. A fresh live Chromium check rendered the WebGL homepage with six covers and no startup error. BEST IMAGE decoded successfully on the AI page, with all 14 gallery entries. No JavaScript errors were captured. The homepage screenshot was inspected. Prior live browser checks also confirmed the complete 23-image Build it gallery and 18 CV entries.
+
+The isolated Chromium context needed a certificate-trust exception for the execution workspace proxy; the independent Python HTTPS requests validated normally. No user browser or computer security settings were changed. This rendering check does not establish Safari/Firefox or real-device performance.
+
+No application code or visual assets changed during the final check. The ready-to-host ZIP remains the previously verified double-click build. The source ZIP was refreshed only for handoff documentation. Documentation is saved on handoff-2026-10-03 to avoid retriggering the legacy Jekyll source deployment on main. Select GitHub Actions as the Pages source before merging those notes.
