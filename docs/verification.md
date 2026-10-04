@@ -83,3 +83,7 @@ Passed locally on the revision:
 - Inspected desktop screenshots of the nine-card grid and Mind page. The workspace Chromium executable was initially truncated and was recovered from the existing compressed package before these browser tests.
 
 No captured JavaScript errors in the completed checks. This does not establish real-device performance or Safari/Firefox compatibility. Video positions/URLs are verified; external streaming playback remains unverified. No new artwork was generated. Live deployment and extracted-package evidence follow below after they complete.
+
+Package verification at 21:56 SAST: both rebuilt ZIPs passed CRC checks. The actual ready-to-host ZIP was extracted into a separate directory, and all five direct-file browser groups passed there with no captured errors. Source and assets are saved on main as cbb9e1ee554c16e1b970dc1ab683f0520c4f9ad9. Independent check run: 37230115480.
+
+Independent CI caught an additional pause redraw defect in Chromium 153: pointer interpolation continued on redraws while paused. The pointer is now frozen when motion is off, and the pause regression check explicitly triggers a redraw before comparing canvas screenshots. Verification below supersedes the first failed CI run.

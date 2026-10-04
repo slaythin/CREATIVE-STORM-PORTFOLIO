@@ -80,7 +80,7 @@ export function Atmosphere({path}:{path:string}){
   function resize(){renderer.setSize(innerWidth,innerHeight);camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();uniforms.uResolution.value.set(innerWidth,innerHeight);}
   function progress(){if(pathRef.current==='/about'||pathRef.current==='/lab')return .92;if(pathRef.current!=='/'&&pathRef.current!=='/studio/preview')return .20;const mind=document.querySelector('[data-neural]');if(!mind)return 0;return Math.max(0,Math.min(.93,(innerHeight-mind.getBoundingClientRect().top)/(innerHeight*.9)));}
   function render(now:number){frame=0;if(cancelled||!visible)return;const dt=Math.min(.035,(now-last)/1000||.016);last=now;const active=motionRef.current&&!pathRef.current.startsWith('/studio');if(active)time+=dt;
-   pointer.lerp(active?targetPointer:new T.Vector2(),.035);brainProgress=active?brainProgress+(progress()-brainProgress)*.065:progress();uniforms.uBrain.value=brainProgress;
+   if(active)pointer.lerp(targetPointer,.035);brainProgress=active?brainProgress+(progress()-brainProgress)*.065:progress();uniforms.uBrain.value=brainProgress;
    if(active&&time>nextFlash){flashAt=time;nextFlash=time+6+random()*8;bolt.position.x=(random()-.5)*2.6;bolt.scale.x=random()>.5?1:-1;}
    const f=time-flashAt;const flash=active?Math.exp(-f*5)*Math.max(0,Math.sin(f*23))*.75:0;uniforms.uScroll.value=Math.min(1,scrollY/innerHeight);uniforms.uTime.value=time;uniforms.uFlash.value=flash;boltMaterial.opacity=flash*(1-brainProgress)*1.9;
    document.documentElement.style.setProperty('--storm-light',String(flash*.36));

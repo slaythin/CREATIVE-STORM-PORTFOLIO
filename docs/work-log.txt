@@ -159,3 +159,12 @@ Both direct HTML opening and repository-subfolder hosting pass their checks. I鈥
 
 4 Oct 2026 路 21:52 SAST
 The requested changes are implemented, and the layout, gallery, CV and local-file checks have passed. I鈥檓 continuing with the remaining handover steps: saving everything to GitHub, rebuilding the downloads and verifying the live deployment.
+
+4 Oct 2026 路 21:54 SAST
+The revised source and assets are ready to save, and both ZIP packages have been rebuilt. The nine-card grid and compact CV layout also passed the focused laptop-screen checks. I鈥檓 now deploying the tested build and checking the actual extracted download.
+
+4 Oct 2026 路 21:56 SAST
+The revision is saved to GitHub. The extracted ready-to-host ZIP also passes the direct-opening checks, so it can be previewed without installing anything. GitHub is now running its independent browser checks before deploying the compiled website.
+
+4 Oct 2026 路 21:57 SAST
+GitHub鈥檚 newer browser caught a pause-state issue that the local browser missed. I鈥檓 fixing that before deployment so the scene stays completely still when motion is paused, including when the browser redraws it.
