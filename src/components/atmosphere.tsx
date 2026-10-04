@@ -18,7 +18,7 @@ export function Atmosphere({path}:{path:string}){
   renderer.domElement.setAttribute('aria-hidden','true');container.appendChild(renderer.domElement);
   const scene=new T.Scene(),camera=new T.PerspectiveCamera(42,innerWidth/innerHeight,.1,80);camera.position.set(0,0,12);
   const pointer=new T.Vector2(),ray=new T.Raycaster(),targetPointer=new T.Vector2();
-  let time=0,last=0,frame=0,nextFlash=8,pulseAt=-100,flashAt=-100,hoverAt=-100,brainProgress=0,visible=!document.hidden;
+  let time=0,last=0,frame=0,nextFlash=5,pulseAt=-100,flashAt=-100,hoverAt=-100,brainProgress=0,visible=!document.hidden;
   let seed=419;const random=()=>{seed=(seed*1664525+1013904223)>>>0;return seed/4294967296;};
   const offlineTextures=(window as Window&{__stormTextures?:Record<string,string>}).__stormTextures;
   const texture=new T.TextureLoader().load(offlineTextures?.storm||localURL('/assets/storm-hero.png'),()=>restart());texture.colorSpace=T.SRGBColorSpace;
@@ -31,8 +31,8 @@ export function Atmosphere({path}:{path:string}){
    float noise(vec2 p){vec2 i=floor(p),f=fract(p);f=f*f*(3.-2.*f);return mix(mix(hash(i),hash(i+vec2(1.,0.)),f.x),mix(hash(i+vec2(0.,1.)),hash(i+vec2(1.,1.)),f.x),f.y);}
    float fbm(vec2 p){float v=0.,a=.5;for(int i=0;i<4;i++){v+=a*noise(p);p=mat2(1.6,-1.2,1.2,1.6)*p+3.4;a*=.5;}return v;}
    void main(){vec2 uv=vUv;float aspect=uResolution.x/uResolution.y;float imageAspect=1.777;vec2 scale=vec2(min(1.,aspect/imageAspect),min(1.,imageAspect/aspect));vec2 pivot=vec2(aspect<1.? .70:.5,.5);uv=(uv-.5)*scale+pivot;
-   vec2 center=vec2(.72,.43),d=uv-center;float mask=exp(-dot(d,d)*11.);float wind=fbm(uv*7.+vec2(uTime*.018,-uTime*.014));vec2 flow=vec2(-d.y,d.x)*.012*sin(uTime*.18+wind*3.1)*mask;
-   uv+=flow+uPointer*.009*(.25+mask);uv.y+=uScroll*.016*(1.-uBrain);vec3 plate=texture2D(uImage,clamp(uv,0.,1.)).rgb;
+   // Keep the approved storm photograph optically stable. Only depth layers move.
+   vec3 plate=texture2D(uImage,clamp(uv,0.,1.)).rgb;
    float mist=fbm(vUv*vec2(4.2,3.4)+vec2(-uTime*.020,uTime*.009));float mistMask=smoothstep(.35,.72,mist)*smoothstep(.55,.02,vUv.y);
    plate+=vec3(.065,.10,.125)*mistMask*.3;
    vec2 neuralUv=(vUv-.5)*scale+pivot+uPointer*.011;neuralUv+=vec2(sin(uTime*.08+vUv.y*5.),cos(uTime*.07+vUv.x*4.))*.0018;
@@ -62,9 +62,13 @@ export function Atmosphere({path}:{path:string}){
     void main(){vec2 p=gl_PointCoord-.5;float d=length(p)*2.;if(d>1.)discard;float n=noise(p*7.+vPhase+vec2(uTime*.04,0.));n+=noise(p*15.-uTime*.025)*.35;float alpha=exp(-d*d*4.)*smoothstep(.1,.8,n)*.085*(1.-uBrain);vec3 c=vec3(.17,.22,.25)+uFlash*vec3(.24,.4,.55);gl_FragColor=vec4(c,alpha);}`
   });
   const mist=new T.Points(mistGeometry,mistMaterial);mist.frustumCulled=false;mist.renderOrder=-2;scene.add(mist);
-  // Very fine suspended particles give the scene true perspective and depth.
-  const dustGeometry=new T.BufferGeometry(),dust:number[]=[];for(let i=0;i<220;i++)dust.push((random()-.5)*20,(random()-.5)*13,(random()-.5)*9);
-  dustGeometry.setAttribute('position',new T.Float32BufferAttribute(dust,3));const dustMaterial=new T.PointsMaterial({color:0x88bbce,size:.012,transparent:true,opacity:.23,depthWrite:false});const dustCloud=new T.Points(dustGeometry,dustMaterial);scene.add(dustCloud);
+  // Windborne dust follows rising helices in perspective, with subdued near/far layers.
+  const dustGeometry=new T.BufferGeometry(),dust:number[]=[];for(let i=0;i<620;i++)dust.push(random()*Math.PI*2,random(),random());
+  dustGeometry.setAttribute('position',new T.Float32BufferAttribute(dust,3));
+  const dustMaterial=new T.ShaderMaterial({uniforms:mistUniforms,transparent:true,depthWrite:false,
+   vertexShader:`uniform float uTime,uBrain;varying float vAlpha;void main(){float h=fract(position.y+uTime*(.012+position.z*.014));float a=position.x+uTime*(.26+position.z*.22);float r=.7+pow(h,1.5)*4.4+position.z*1.1;vec3 p=vec3(3.5+cos(a)*r,-3.7+h*8.,sin(a)*r*.55+position.z*2.);vec4 mv=modelViewMatrix*vec4(p,1.);gl_Position=projectionMatrix*mv;gl_PointSize=clamp((15.+position.z*15.)/(-mv.z),.7,4.);vAlpha=sin(h*3.14159)*(.13+position.z*.23)*(1.-uBrain*.8);}`,
+   fragmentShader:`uniform float uFlash;varying float vAlpha;void main(){vec2 p=gl_PointCoord-.5;float a=smoothstep(.5,.08,length(p));gl_FragColor=vec4(vec3(.49,.58,.63)+uFlash*vec3(.35,.43,.5),a*vAlpha);}`
+  });const dustCloud=new T.Points(dustGeometry,dustMaterial);dustCloud.frustumCulled=false;scene.add(dustCloud);
   const boltGeometry=new T.BufferGeometry(),boltPositions:number[]=[];
   let bx=5.1,by=4.5;for(let j=0;j<23;j++){const nx=bx+(random()-.5)*.43,ny=by-.35;boltPositions.push(bx,by,-1,nx,ny,-1);if(j===7||j===13){let xx=nx,yy=ny;for(let k=0;k<6;k++){const x2=xx+.14+random()*.21,y2=yy-.18-random()*.15;boltPositions.push(xx,yy,-1,x2,y2,-1);xx=x2;yy=y2;}}bx=nx;by=ny;}
   boltGeometry.setAttribute('position',new T.Float32BufferAttribute(boltPositions,3));const boltMaterial=new T.LineBasicMaterial({color:0xd1eaff,transparent:true,opacity:0,depthWrite:false,blending:T.AdditiveBlending});const bolt=new T.LineSegments(boltGeometry,boltMaterial);scene.add(bolt);
@@ -77,11 +81,11 @@ export function Atmosphere({path}:{path:string}){
   function progress(){if(pathRef.current==='/about'||pathRef.current==='/lab')return .92;if(pathRef.current!=='/'&&pathRef.current!=='/studio/preview')return .20;const mind=document.querySelector('[data-neural]');if(!mind)return 0;return Math.max(0,Math.min(.93,(innerHeight-mind.getBoundingClientRect().top)/(innerHeight*.9)));}
   function render(now:number){frame=0;if(cancelled||!visible)return;const dt=Math.min(.035,(now-last)/1000||.016);last=now;const active=motionRef.current&&!pathRef.current.startsWith('/studio');if(active)time+=dt;
    pointer.lerp(active?targetPointer:new T.Vector2(),.035);brainProgress=active?brainProgress+(progress()-brainProgress)*.065:progress();uniforms.uBrain.value=brainProgress;
-   if(active&&time>nextFlash){flashAt=time;nextFlash=time+10+random()*12;}
+   if(active&&time>nextFlash){flashAt=time;nextFlash=time+6+random()*8;bolt.position.x=(random()-.5)*2.6;bolt.scale.x=random()>.5?1:-1;}
    const f=time-flashAt;const flash=active?Math.exp(-f*5)*Math.max(0,Math.sin(f*23))*.75:0;uniforms.uScroll.value=Math.min(1,scrollY/innerHeight);uniforms.uTime.value=time;uniforms.uFlash.value=flash;boltMaterial.opacity=flash*(1-brainProgress)*1.9;
    document.documentElement.style.setProperty('--storm-light',String(flash*.36));
    neural.update(time,brainProgress,pointer,innerWidth<800);
-   blue.intensity=25+flash*70;violet.intensity=18+Math.max(0,1-(time-pulseAt))*30;dustCloud.rotation.y=time*.007;dustCloud.position.x=pointer.x*.05;dustMaterial.opacity=.15+brainProgress*.08;
+   blue.intensity=25+flash*70;violet.intensity=18+Math.max(0,1-(time-pulseAt))*30;
    renderer.render(scene,camera);if(active)frame=requestAnimationFrame(render);
   }
   const restart=()=>{if(!frame&&visible){last=performance.now();frame=requestAnimationFrame(render);}};

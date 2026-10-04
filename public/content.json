@@ -10,16 +10,149 @@
     "portrait": "",
     "originalCV": "/assets/cv-original.jpg",
     "showOriginalCV": true,
-    "showAlternateCV": true
+    "showAlternateCV": false
   },
   "projects": [
+    {
+      "id": "websites",
+      "slug": "websites",
+      "title": "Digital experiences",
+      "category": "Digital experiences",
+      "subtitle": "A little more than a pretty interface.",
+      "description": "Just a couple of the most recent websites for you to browse through... pun intended.",
+      "cover": "/assets/websites-cover-01.webp",
+      "year": "Selected work",
+      "services": [
+        "Web design",
+        "Front-end development",
+        "Interaction"
+      ],
+      "gallery": [
+        {
+          "src": "/assets/websites-gallery-01.webp",
+          "alt": "Digital experiences — portfolio image 1"
+        },
+        {
+          "src": "/assets/websites-gallery-02.webp",
+          "alt": "Digital experiences — portfolio image 2"
+        },
+        {
+          "src": "/assets/websites-gallery-03.webp",
+          "alt": "Digital experiences — portfolio image 3"
+        },
+        {
+          "src": "/assets/websites-gallery-04.webp",
+          "alt": "Digital experiences — portfolio image 4"
+        },
+        {
+          "src": "/assets/websites-gallery-05.webp",
+          "alt": "Digital experiences — portfolio image 5"
+        },
+        {
+          "src": "/assets/websites-gallery-06.webp",
+          "alt": "Digital experiences — portfolio image 6"
+        },
+        {
+          "src": "/assets/websites-gallery-07.webp",
+          "alt": "Digital experiences — portfolio image 7"
+        },
+        {
+          "src": "/assets/websites-gallery-08.webp",
+          "alt": "Digital experiences — portfolio image 8"
+        }
+      ],
+      "paragraphs": [
+        "Just a couple of the most recent websites for you to browse through... pun intended.",
+        "This first one is a revamp website for a school and is still in the works.",
+        "It features 3D objects and subtle animations while scrolling.",
+        "This second website is already live and can be viewed here:",
+        "https://lightslategrey-mantis-729223.hostingersite.com/"
+      ],
+      "videos": [],
+      "externalUrl": "https://lightslategrey-mantis-729223.hostingersite.com/",
+      "featured": true,
+      "visible": true,
+      "blocks": [
+        {
+          "type": "text",
+          "paragraphs": [
+            "Just a couple of the most recent websites for you to browse through... pun intended.",
+            "This first one is a revamp website for a school and is still in the works.",
+            "It features 3D objects and subtle animations while scrolling."
+          ]
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/websites-gallery-01.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/websites-gallery-02.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/websites-gallery-03.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/websites-gallery-04.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/websites-gallery-05.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "text",
+          "paragraphs": [
+            "This second website is already live and can be viewed here:",
+            "https://lightslategrey-mantis-729223.hostingersite.com/"
+          ]
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/websites-gallery-06.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/websites-gallery-07.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/websites-gallery-08.webp"
+          ],
+          "layout": "full"
+        }
+      ]
+    },
     {
       "id": "build-it",
       "slug": "build-it",
       "title": "Build it",
       "category": "Brand & design",
       "subtitle": "Built to be bold.",
-      "description": "From the everyday builder to the hero of the campaign. A world of retail communication, motion and event design built around an attitude: Build it like a boss.",
+      "description": "The video below was for the launch of Boss deals and is now running as a TV commercial with great success. The client loved the Boss campaign so much that it is no longer a promotional campaign, but transformed into a brand campaign.",
       "cover": "/assets/build-it-cover-01.webp",
       "year": "Selected work",
       "services": [
@@ -123,8 +256,12 @@
         }
       ],
       "paragraphs": [
-        "The Boss campaign started as a promotional idea and grew into a broader brand campaign. The challenge: take the everyday builder and make them feel like the hero.",
-        "The work spans a television commercial, promotional communication, conventions, billboards and digital content. More than 150 billboards and a thousand digital artworks over the years have kept the brand moving."
+        "The video below was for the launch of Boss deals and is now running as a TV commercial with great success. The client loved the Boss campaign so much that it is no longer a promotional campaign, but transformed into a brand campaign.",
+        "The latest promotional comms are based on \"Build it like a boss\", because what could be more heroic or inspiring to the builder architype audience than to take the everyday builder and make him/her a badass - and what could be more colloquially eloquent than the local term - like a boss The next challenge is how to make a speaker or blanket seem badass?",
+        "Presentations, event branding, signage, personalised items, awards, certificates, seating plans, digital communications, etc.",
+        "Have done over 150 billboards over the years. This is one of my personal favourites.",
+        "I've personally worked on over a thousand digital artworks in the last few years, but here is one of the latest. These are the digital posts used as reminders for the mystery golf tour for the retailers.",
+        "...And just a couple quick animations for their cement packaging launch"
       ],
       "videos": [
         "https://www-ccv.adobe.io/v1/player/ccv/W7rNDkJh3ig/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
@@ -133,7 +270,115 @@
       ],
       "externalUrl": "",
       "featured": true,
-      "visible": true
+      "visible": true,
+      "blocks": [
+        {
+          "type": "text",
+          "paragraphs": [
+            "The video below was for the launch of Boss deals and is now running as a TV commercial with great success. The client loved the Boss campaign so much that it is no longer a promotional campaign, but transformed into a brand campaign."
+          ],
+          "heading": "TV Commercial"
+        },
+        {
+          "type": "video",
+          "src": "https://www-ccv.adobe.io/v1/player/ccv/W7rNDkJh3ig/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+        },
+        {
+          "type": "text",
+          "paragraphs": [
+            "The latest promotional comms are based on \"Build it like a boss\", because what could be more heroic or inspiring to the builder architype audience than to take the everyday builder and make him/her a badass - and what could be more colloquially eloquent than the local term - like a boss The next challenge is how to make a speaker or blanket seem badass?"
+          ],
+          "heading": "Promotions"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/build-it-gallery-01.webp",
+            "/assets/build-it-gallery-02.webp"
+          ],
+          "layout": "grid"
+        },
+        {
+          "type": "text",
+          "paragraphs": [
+            "Presentations, event branding, signage, personalised items, awards, certificates, seating plans, digital communications, etc."
+          ],
+          "heading": "Conventions"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/build-it-gallery-03.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/build-it-gallery-04.webp",
+            "/assets/build-it-gallery-05.webp",
+            "/assets/build-it-gallery-06.webp",
+            "/assets/build-it-gallery-07.webp",
+            "/assets/build-it-gallery-08.webp",
+            "/assets/build-it-gallery-09.webp"
+          ],
+          "layout": "grid"
+        },
+        {
+          "type": "text",
+          "paragraphs": [
+            "Have done over 150 billboards over the years. This is one of my personal favourites."
+          ],
+          "heading": "Billboards"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/build-it-gallery-10.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "text",
+          "paragraphs": [
+            "I've personally worked on over a thousand digital artworks in the last few years, but here is one of the latest. These are the digital posts used as reminders for the mystery golf tour for the retailers."
+          ],
+          "heading": "Digital (I also have fun)"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/build-it-gallery-11.webp",
+            "/assets/build-it-gallery-12.webp",
+            "/assets/build-it-gallery-13.webp",
+            "/assets/build-it-gallery-14.webp",
+            "/assets/build-it-gallery-15.webp",
+            "/assets/build-it-gallery-16.webp",
+            "/assets/build-it-gallery-17.webp",
+            "/assets/build-it-gallery-18.webp",
+            "/assets/build-it-gallery-19.webp",
+            "/assets/build-it-gallery-20.webp",
+            "/assets/build-it-gallery-21.webp",
+            "/assets/build-it-gallery-22.webp",
+            "/assets/build-it-gallery-23.webp"
+          ],
+          "layout": "grid"
+        },
+        {
+          "type": "text",
+          "paragraphs": [
+            "...And just a couple quick animations for their cement packaging launch"
+          ]
+        },
+        {
+          "type": "video",
+          "src": "https://www-ccv.adobe.io/v1/player/ccv/INd_cZr89g7/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+        },
+        {
+          "type": "video",
+          "src": "https://www-ccv.adobe.io/v1/player/ccv/PEZ5VoeYNyk/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+        }
+      ]
     },
     {
       "id": "spar",
@@ -141,7 +386,7 @@
       "title": "SPAR Group",
       "category": "Brand & design",
       "subtitle": "Big ideas. Everyday impact.",
-      "description": "A collection of presentations, campaigns and brand experiences for SPAR. Making complex messages compelling, and familiar brands feel fresh.",
+      "description": "",
       "cover": "/assets/spar-cover-01.webp",
       "year": "Selected work",
       "services": [
@@ -195,187 +440,108 @@
       "videos": [],
       "externalUrl": "",
       "featured": true,
-      "visible": true
+      "visible": true,
+      "blocks": [
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/spar-gallery-01.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/spar-gallery-02.webp",
+            "/assets/spar-gallery-03.webp",
+            "/assets/spar-gallery-04.webp",
+            "/assets/spar-gallery-05.webp",
+            "/assets/spar-gallery-06.webp",
+            "/assets/spar-gallery-07.webp",
+            "/assets/spar-gallery-08.webp",
+            "/assets/spar-gallery-09.webp",
+            "/assets/spar-gallery-10.webp"
+          ],
+          "layout": "grid"
+        }
+      ]
     },
     {
-      "id": "websites",
-      "slug": "websites",
-      "title": "Digital experiences",
-      "category": "Digital experiences",
-      "subtitle": "A little more than a pretty interface.",
-      "description": "Web experiences that bring together visual storytelling, considered interaction and a healthy obsession with the details. Browse through a few recent explorations. Pun intended.",
-      "cover": "/assets/websites-cover-01.webp",
+      "id": "ph4ge",
+      "slug": "ph4ge",
+      "title": "PHA4GE",
+      "category": "Brand & design",
+      "subtitle": "Complex thinking. Clear expression.",
+      "description": "",
+      "cover": "/assets/ph4ge-cover-01.webp",
       "year": "Selected work",
       "services": [
-        "Web design",
-        "Front-end development",
-        "Interaction"
+        "Visual communication",
+        "Event design",
+        "Presentation"
       ],
       "gallery": [
         {
-          "src": "/assets/websites-gallery-01.webp",
-          "alt": "Digital experiences — portfolio image 1"
+          "src": "/assets/ph4ge-gallery-01.webp",
+          "alt": "PHA4GE — portfolio image 1"
         },
         {
-          "src": "/assets/websites-gallery-02.webp",
-          "alt": "Digital experiences — portfolio image 2"
+          "src": "/assets/ph4ge-gallery-02.webp",
+          "alt": "PHA4GE — portfolio image 2"
         },
         {
-          "src": "/assets/websites-gallery-03.webp",
-          "alt": "Digital experiences — portfolio image 3"
+          "src": "/assets/ph4ge-gallery-03.webp",
+          "alt": "PHA4GE — portfolio image 3"
         },
         {
-          "src": "/assets/websites-gallery-04.webp",
-          "alt": "Digital experiences — portfolio image 4"
+          "src": "/assets/ph4ge-gallery-04.webp",
+          "alt": "PHA4GE — portfolio image 4"
         },
         {
-          "src": "/assets/websites-gallery-05.webp",
-          "alt": "Digital experiences — portfolio image 5"
+          "src": "/assets/ph4ge-gallery-05.webp",
+          "alt": "PHA4GE — portfolio image 5"
         },
         {
-          "src": "/assets/websites-gallery-06.webp",
-          "alt": "Digital experiences — portfolio image 6"
+          "src": "/assets/ph4ge-gallery-06.webp",
+          "alt": "PHA4GE — portfolio image 6"
         },
         {
-          "src": "/assets/websites-gallery-07.webp",
-          "alt": "Digital experiences — portfolio image 7"
-        },
-        {
-          "src": "/assets/websites-gallery-08.webp",
-          "alt": "Digital experiences — portfolio image 8"
+          "src": "/assets/ph4ge-gallery-07.webp",
+          "alt": "PHA4GE — portfolio image 7"
         }
       ],
-      "paragraphs": [
-        "Just a couple of the most recent websites for you to browse through... pun intended.\nThis first one is a revamp website for a school and is still in the works.\nIt features 3D objects and subtle animations while scrolling.",
-        "This second website is already live and can be viewed here:\nhttps://lightslategrey-mantis-729223.hostingersite.com/"
-      ],
-      "videos": [],
-      "externalUrl": "https://lightslategrey-mantis-729223.hostingersite.com/",
-      "featured": true,
-      "visible": true
-    },
-    {
-      "id": "art-portfolio",
-      "slug": "art-portfolio",
-      "title": "Art portfolio",
-      "category": "Art",
-      "subtitle": "Where the noise becomes instinct.",
-      "description": "A parallel practice in pencil, paint and possibility. From detailed portraits to expressive colour, this is where observation meets imagination.",
-      "cover": "/assets/art-portfolio-cover-01.webp",
-      "year": "Selected work",
-      "services": [
-        "Fine art",
-        "Portraiture",
-        "Painting"
-      ],
-      "gallery": [
-        {
-          "src": "/assets/art-portfolio-gallery-01.webp",
-          "alt": "Art portfolio — portfolio image 1"
-        },
-        {
-          "src": "/assets/art-portfolio-gallery-02.webp",
-          "alt": "Art portfolio — portfolio image 2"
-        },
-        {
-          "src": "/assets/art-portfolio-gallery-03.webp",
-          "alt": "Art portfolio — portfolio image 3"
-        },
-        {
-          "src": "/assets/art-portfolio-gallery-04.webp",
-          "alt": "Art portfolio — portfolio image 4"
-        },
-        {
-          "src": "/assets/art-portfolio-gallery-05.webp",
-          "alt": "Art portfolio — portfolio image 5"
-        },
-        {
-          "src": "/assets/art-portfolio-gallery-06.webp",
-          "alt": "Art portfolio — portfolio image 6"
-        },
-        {
-          "src": "/assets/art-portfolio-gallery-07.webp",
-          "alt": "Art portfolio — portfolio image 7"
-        },
-        {
-          "src": "/assets/art-portfolio-gallery-08.webp",
-          "alt": "Art portfolio — portfolio image 8"
-        },
-        {
-          "src": "/assets/art-portfolio-gallery-09.webp",
-          "alt": "Art portfolio — portfolio image 9"
-        },
-        {
-          "src": "/assets/art-portfolio-gallery-10.webp",
-          "alt": "Art portfolio — portfolio image 10"
-        },
-        {
-          "src": "/assets/art-portfolio-gallery-11.webp",
-          "alt": "Art portfolio — portfolio image 11"
-        },
-        {
-          "src": "/assets/art-portfolio-gallery-12.webp",
-          "alt": "Art portfolio — portfolio image 12"
-        },
-        {
-          "src": "/assets/art-portfolio-gallery-13.webp",
-          "alt": "Art portfolio — portfolio image 13"
-        },
-        {
-          "src": "/assets/art-portfolio-gallery-14.webp",
-          "alt": "Art portfolio — portfolio image 14"
-        },
-        {
-          "src": "/assets/art-portfolio-gallery-15.webp",
-          "alt": "Art portfolio — portfolio image 15"
-        },
-        {
-          "src": "/assets/art-portfolio-gallery-16.webp",
-          "alt": "Art portfolio — portfolio image 16"
-        },
-        {
-          "src": "/assets/art-portfolio-gallery-17.webp",
-          "alt": "Art portfolio — portfolio image 17"
-        },
-        {
-          "src": "/assets/art-portfolio-gallery-18.webp",
-          "alt": "Art portfolio — portfolio image 18"
-        },
-        {
-          "src": "/assets/art-portfolio-gallery-19.webp",
-          "alt": "Art portfolio — portfolio image 19"
-        },
-        {
-          "src": "/assets/art-portfolio-gallery-20.webp",
-          "alt": "Art portfolio — portfolio image 20"
-        },
-        {
-          "src": "/assets/art-portfolio-gallery-21.webp",
-          "alt": "Art portfolio — portfolio image 21"
-        },
-        {
-          "src": "/assets/art-portfolio-gallery-22.webp",
-          "alt": "Art portfolio — portfolio image 22"
-        },
-        {
-          "src": "/assets/art-portfolio-gallery-23.webp",
-          "alt": "Art portfolio — portfolio image 23"
-        },
-        {
-          "src": "/assets/art-portfolio-gallery-24.webp",
-          "alt": "Art portfolio — portfolio image 24"
-        }
-      ],
-      "paragraphs": [
-        "My art practice has grown alongside my design career, with exhibitions at KZNSA and Art in the Park, and mentorship from renowned artist Ashley Munsamy.",
-        "Selected by the South African Indian Consulate and the ICCR to join artists from allied countries for a collaborative painting project in New Delhi in 2026."
-      ],
+      "paragraphs": [],
       "videos": [
-        "https://www-ccv.adobe.io/v1/player/ccv/PD2oZjdEBQj/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+        "https://www-ccv.adobe.io/v1/player/ccv/HQRUAUSj2PC/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
       ],
       "externalUrl": "",
       "featured": true,
-      "visible": true
+      "visible": true,
+      "blocks": [
+        {
+          "type": "video",
+          "src": "https://www-ccv.adobe.io/v1/player/ccv/HQRUAUSj2PC/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/ph4ge-gallery-01.webp",
+            "/assets/ph4ge-gallery-02.webp",
+            "/assets/ph4ge-gallery-03.webp"
+          ],
+          "layout": "grid"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/ph4ge-gallery-04.webp",
+            "/assets/ph4ge-gallery-05.webp",
+            "/assets/ph4ge-gallery-06.webp",
+            "/assets/ph4ge-gallery-07.webp"
+          ],
+          "layout": "grid"
+        }
+      ]
     },
     {
       "id": "build-it-convention-2023",
@@ -383,7 +549,7 @@
       "title": "Illovo",
       "category": "Brand & design",
       "subtitle": "A brand you can step inside.",
-      "description": "Spatial storytelling, event graphics and a connected visual language. A collection of environments and communication designed to turn a room into an experience.",
+      "description": "There was a second room in another location. The panels in that room follow as per the below infographic.",
       "cover": "/assets/build-it-convention-2023-cover-01.webp",
       "year": "Selected work",
       "services": [
@@ -537,59 +703,71 @@
       ],
       "externalUrl": "",
       "featured": true,
-      "visible": true
-    },
-    {
-      "id": "ph4ge",
-      "slug": "ph4ge",
-      "title": "PHA4GE",
-      "category": "Brand & design",
-      "subtitle": "Complex thinking. Clear expression.",
-      "description": "A visual world for PHA4GE: communication and event design that give a technical subject a clear, connected presence.",
-      "cover": "/assets/ph4ge-cover-01.webp",
-      "year": "Selected work",
-      "services": [
-        "Visual communication",
-        "Event design",
-        "Presentation"
-      ],
-      "gallery": [
+      "visible": true,
+      "blocks": [
         {
-          "src": "/assets/ph4ge-gallery-01.webp",
-          "alt": "PHA4GE — portfolio image 1"
+          "type": "video",
+          "src": "https://www-ccv.adobe.io/v1/player/ccv/5MPs_tzd3qr/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
         },
         {
-          "src": "/assets/ph4ge-gallery-02.webp",
-          "alt": "PHA4GE — portfolio image 2"
+          "type": "gallery",
+          "images": [
+            "/assets/build-it-convention-2023-gallery-01.webp"
+          ],
+          "layout": "full"
         },
         {
-          "src": "/assets/ph4ge-gallery-03.webp",
-          "alt": "PHA4GE — portfolio image 3"
+          "type": "text",
+          "paragraphs": [
+            "There was a second room in another location. The panels in that room follow as per the below infographic."
+          ]
         },
         {
-          "src": "/assets/ph4ge-gallery-04.webp",
-          "alt": "PHA4GE — portfolio image 4"
+          "type": "gallery",
+          "images": [
+            "/assets/build-it-convention-2023-gallery-02.webp"
+          ],
+          "layout": "full"
         },
         {
-          "src": "/assets/ph4ge-gallery-05.webp",
-          "alt": "PHA4GE — portfolio image 5"
-        },
-        {
-          "src": "/assets/ph4ge-gallery-06.webp",
-          "alt": "PHA4GE — portfolio image 6"
-        },
-        {
-          "src": "/assets/ph4ge-gallery-07.webp",
-          "alt": "PHA4GE — portfolio image 7"
+          "type": "gallery",
+          "images": [
+            "/assets/build-it-convention-2023-gallery-03.webp",
+            "/assets/build-it-convention-2023-gallery-04.webp",
+            "/assets/build-it-convention-2023-gallery-05.webp",
+            "/assets/build-it-convention-2023-gallery-06.webp",
+            "/assets/build-it-convention-2023-gallery-07.webp",
+            "/assets/build-it-convention-2023-gallery-08.webp",
+            "/assets/build-it-convention-2023-gallery-09.webp",
+            "/assets/build-it-convention-2023-gallery-10.webp",
+            "/assets/build-it-convention-2023-gallery-11.webp",
+            "/assets/build-it-convention-2023-gallery-12.webp",
+            "/assets/build-it-convention-2023-gallery-13.webp",
+            "/assets/build-it-convention-2023-gallery-14.webp",
+            "/assets/build-it-convention-2023-gallery-15.webp",
+            "/assets/build-it-convention-2023-gallery-16.webp",
+            "/assets/build-it-convention-2023-gallery-17.webp",
+            "/assets/build-it-convention-2023-gallery-18.webp",
+            "/assets/build-it-convention-2023-gallery-19.webp",
+            "/assets/build-it-convention-2023-gallery-20.webp",
+            "/assets/build-it-convention-2023-gallery-21.webp",
+            "/assets/build-it-convention-2023-gallery-22.webp",
+            "/assets/build-it-convention-2023-gallery-23.webp",
+            "/assets/build-it-convention-2023-gallery-24.webp",
+            "/assets/build-it-convention-2023-gallery-25.webp",
+            "/assets/build-it-convention-2023-gallery-26.webp",
+            "/assets/build-it-convention-2023-gallery-27.webp",
+            "/assets/build-it-convention-2023-gallery-28.webp",
+            "/assets/build-it-convention-2023-gallery-29.webp",
+            "/assets/build-it-convention-2023-gallery-30.webp",
+            "/assets/build-it-convention-2023-gallery-31.webp",
+            "/assets/build-it-convention-2023-gallery-32.webp",
+            "/assets/build-it-convention-2023-gallery-33.webp",
+            "/assets/build-it-convention-2023-gallery-34.webp"
+          ],
+          "layout": "grid"
         }
-      ],
-      "paragraphs": [],
-      "videos": [
-        "https://www-ccv.adobe.io/v1/player/ccv/HQRUAUSj2PC/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
-      ],
-      "externalUrl": "",
-      "featured": true,
-      "visible": true
+      ]
     },
     {
       "id": "tops-at-spar",
@@ -597,7 +775,7 @@
       "title": "TOPS at SPAR",
       "category": "Brand & design",
       "subtitle": "A message with a local voice.",
-      "description": "A responsible-drinking campaign that speaks like a friend. Xhosa copy and relatable humour create a friendly reminder to drink responsibly and never drink and drive.",
+      "description": "The campaign is in Xhosa to appeal to a specific demographic as it started in the Eastern Cape. It is where TOPS at SPAR is giving a friendly reminder to be cautious and to not over drink. It also advises on matters of drinking and driving by making a joke as if from a friend and not a tone of authority.",
       "cover": "/assets/tops-at-spar-cover-01.webp",
       "year": "Selected work",
       "services": [
@@ -643,8 +821,30 @@
       ],
       "videos": [],
       "externalUrl": "",
-      "featured": false,
-      "visible": true
+      "featured": true,
+      "visible": true,
+      "blocks": [
+        {
+          "type": "text",
+          "paragraphs": [
+            "The campaign is in Xhosa to appeal to a specific demographic as it started in the Eastern Cape. It is where TOPS at SPAR is giving a friendly reminder to be cautious and to not over drink. It also advises on matters of drinking and driving by making a joke as if from a friend and not a tone of authority."
+          ]
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/tops-at-spar-gallery-01.webp",
+            "/assets/tops-at-spar-gallery-02.webp",
+            "/assets/tops-at-spar-gallery-03.webp",
+            "/assets/tops-at-spar-gallery-04.webp",
+            "/assets/tops-at-spar-gallery-05.webp",
+            "/assets/tops-at-spar-gallery-06.webp",
+            "/assets/tops-at-spar-gallery-07.webp",
+            "/assets/tops-at-spar-gallery-08.webp"
+          ],
+          "layout": "grid"
+        }
+      ]
     },
     {
       "id": "individual-projects",
@@ -652,7 +852,7 @@
       "title": "Independent explorations",
       "category": "Brand & design",
       "subtitle": "Curiosity refuses to sit still.",
-      "description": "A collection of independent ideas, identities and design experiments. Different briefs, different worlds. The same appetite to make things interesting.",
+      "description": "",
       "cover": "/assets/individual-projects-cover-01.webp",
       "year": "Selected work",
       "services": [
@@ -795,8 +995,410 @@
         "https://www-ccv.adobe.io/v1/player/ccv/5F9ydHmxqPo/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
       ],
       "externalUrl": "",
-      "featured": false,
-      "visible": true
+      "featured": true,
+      "visible": true,
+      "blocks": [
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/individual-projects-gallery-01.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/individual-projects-gallery-02.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/individual-projects-gallery-03.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/individual-projects-gallery-04.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "video",
+          "src": "https://www-ccv.adobe.io/v1/player/ccv/5F9ydHmxqPo/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/individual-projects-gallery-05.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/individual-projects-gallery-06.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/individual-projects-gallery-07.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/individual-projects-gallery-08.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/individual-projects-gallery-09.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/individual-projects-gallery-10.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/individual-projects-gallery-11.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/individual-projects-gallery-12.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/individual-projects-gallery-13.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/individual-projects-gallery-14.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/individual-projects-gallery-15.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/individual-projects-gallery-16.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/individual-projects-gallery-17.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/individual-projects-gallery-18.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/individual-projects-gallery-19.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/individual-projects-gallery-20.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/individual-projects-gallery-21.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/individual-projects-gallery-22.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/individual-projects-gallery-23.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/individual-projects-gallery-24.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/individual-projects-gallery-25.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/individual-projects-gallery-26.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/individual-projects-gallery-27.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/individual-projects-gallery-28.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/individual-projects-gallery-29.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/individual-projects-gallery-30.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/individual-projects-gallery-31.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/individual-projects-gallery-32.webp"
+          ],
+          "layout": "full"
+        }
+      ]
+    },
+    {
+      "id": "art-portfolio",
+      "slug": "art-portfolio",
+      "title": "Art portfolio",
+      "category": "Art",
+      "subtitle": "Where the noise becomes instinct.",
+      "description": "Over the years I have grown as an artist in parallel to my design career, having exhibited in the KZNSA art gallery, Art in the Park, etc. I am also very grateful to have been mentored by the renowned artist, Ashley Munsamy.",
+      "cover": "/assets/art-portfolio-cover-01.webp",
+      "year": "Selected work",
+      "services": [
+        "Fine art",
+        "Portraiture",
+        "Painting"
+      ],
+      "gallery": [
+        {
+          "src": "/assets/art-portfolio-gallery-01.webp",
+          "alt": "Art portfolio — portfolio image 1"
+        },
+        {
+          "src": "/assets/art-portfolio-gallery-02.webp",
+          "alt": "Art portfolio — portfolio image 2"
+        },
+        {
+          "src": "/assets/art-portfolio-gallery-03.webp",
+          "alt": "Art portfolio — portfolio image 3"
+        },
+        {
+          "src": "/assets/art-portfolio-gallery-04.webp",
+          "alt": "Art portfolio — portfolio image 4"
+        },
+        {
+          "src": "/assets/art-portfolio-gallery-05.webp",
+          "alt": "Art portfolio — portfolio image 5"
+        },
+        {
+          "src": "/assets/art-portfolio-gallery-06.webp",
+          "alt": "Art portfolio — portfolio image 6"
+        },
+        {
+          "src": "/assets/art-portfolio-gallery-07.webp",
+          "alt": "Art portfolio — portfolio image 7"
+        },
+        {
+          "src": "/assets/art-portfolio-gallery-08.webp",
+          "alt": "Art portfolio — portfolio image 8"
+        },
+        {
+          "src": "/assets/art-portfolio-gallery-09.webp",
+          "alt": "Art portfolio — portfolio image 9"
+        },
+        {
+          "src": "/assets/art-portfolio-gallery-10.webp",
+          "alt": "Art portfolio — portfolio image 10"
+        },
+        {
+          "src": "/assets/art-portfolio-gallery-11.webp",
+          "alt": "Art portfolio — portfolio image 11"
+        },
+        {
+          "src": "/assets/art-portfolio-gallery-12.webp",
+          "alt": "Art portfolio — portfolio image 12"
+        },
+        {
+          "src": "/assets/art-portfolio-gallery-13.webp",
+          "alt": "Art portfolio — portfolio image 13"
+        },
+        {
+          "src": "/assets/art-portfolio-gallery-14.webp",
+          "alt": "Art portfolio — portfolio image 14"
+        },
+        {
+          "src": "/assets/art-portfolio-gallery-15.webp",
+          "alt": "Art portfolio — portfolio image 15"
+        },
+        {
+          "src": "/assets/art-portfolio-gallery-16.webp",
+          "alt": "Art portfolio — portfolio image 16"
+        },
+        {
+          "src": "/assets/art-portfolio-gallery-17.webp",
+          "alt": "Art portfolio — portfolio image 17"
+        },
+        {
+          "src": "/assets/art-portfolio-gallery-18.webp",
+          "alt": "Art portfolio — portfolio image 18"
+        },
+        {
+          "src": "/assets/art-portfolio-gallery-19.webp",
+          "alt": "Art portfolio — portfolio image 19"
+        },
+        {
+          "src": "/assets/art-portfolio-gallery-20.webp",
+          "alt": "Art portfolio — portfolio image 20"
+        },
+        {
+          "src": "/assets/art-portfolio-gallery-21.webp",
+          "alt": "Art portfolio — portfolio image 21"
+        },
+        {
+          "src": "/assets/art-portfolio-gallery-22.webp",
+          "alt": "Art portfolio — portfolio image 22"
+        },
+        {
+          "src": "/assets/art-portfolio-gallery-23.webp",
+          "alt": "Art portfolio — portfolio image 23"
+        },
+        {
+          "src": "/assets/art-portfolio-gallery-24.webp",
+          "alt": "Art portfolio — portfolio image 24"
+        }
+      ],
+      "paragraphs": [
+        "Over the years I have grown as an artist in parallel to my design career, having exhibited in the KZNSA art gallery, Art in the Park, etc. I am also very grateful to have been mentored by the renowned artist, Ashley Munsamy.",
+        "In this first artwork, I was selected by the South African Indian Consulate and the DG ICCR in India to be sent to New Delhi and paint alongside 10 artists from the allied countries in the BRICS 2026 Summit. The work was received highly positive recognition from the delegates and presidents of the allied countries, including Putin, Xi Jinping, Modi, etc."
+      ],
+      "videos": [],
+      "externalUrl": "",
+      "featured": true,
+      "visible": true,
+      "blocks": [
+        {
+          "type": "text",
+          "paragraphs": [
+            "Over the years I have grown as an artist in parallel to my design career, having exhibited in the KZNSA art gallery, Art in the Park, etc. I am also very grateful to have been mentored by the renowned artist, Ashley Munsamy.",
+            "In this first artwork, I was selected by the South African Indian Consulate and the DG ICCR in India to be sent to New Delhi and paint alongside 10 artists from the allied countries in the BRICS 2026 Summit. The work was received highly positive recognition from the delegates and presidents of the allied countries, including Putin, Xi Jinping, Modi, etc."
+          ]
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/art-portfolio-gallery-01.webp"
+          ],
+          "layout": "full"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/art-portfolio-gallery-02.webp",
+            "/assets/art-portfolio-gallery-03.webp",
+            "/assets/art-portfolio-gallery-04.webp"
+          ],
+          "layout": "grid"
+        },
+        {
+          "type": "gallery",
+          "images": [
+            "/assets/art-portfolio-gallery-05.webp",
+            "/assets/art-portfolio-gallery-06.webp",
+            "/assets/art-portfolio-gallery-07.webp",
+            "/assets/art-portfolio-gallery-08.webp",
+            "/assets/art-portfolio-gallery-09.webp",
+            "/assets/art-portfolio-gallery-10.webp",
+            "/assets/art-portfolio-gallery-11.webp",
+            "/assets/art-portfolio-gallery-12.webp",
+            "/assets/art-portfolio-gallery-13.webp",
+            "/assets/art-portfolio-gallery-14.webp",
+            "/assets/art-portfolio-gallery-15.webp",
+            "/assets/art-portfolio-gallery-16.webp",
+            "/assets/art-portfolio-gallery-17.webp",
+            "/assets/art-portfolio-gallery-18.webp",
+            "/assets/art-portfolio-gallery-19.webp",
+            "/assets/art-portfolio-gallery-20.webp",
+            "/assets/art-portfolio-gallery-21.webp",
+            "/assets/art-portfolio-gallery-22.webp",
+            "/assets/art-portfolio-gallery-23.webp",
+            "/assets/art-portfolio-gallery-24.webp"
+          ],
+          "layout": "grid"
+        }
+      ]
     }
   ],
   "brands": [
@@ -834,13 +1436,6 @@
       "caption": "The supplied initial image and its print-prepared pipeline version. Look at the clothing, roller edges and painted surfaces."
     },
     {
-      "id": "paint-composition",
-      "title": "Give the idea more presence.",
-      "before": "/assets/ai/original-01.webp",
-      "after": "/assets/ai/pipeline-12.webp",
-      "caption": "Two treatments of the paint campaign. The framing and subject scale differ; side-by-side view keeps those choices visible."
-    },
-    {
       "id": "portrait-direction",
       "title": "Character is in the details.",
       "before": "/assets/ai/original-02.webp",
@@ -849,9 +1444,9 @@
     }
   ],
   "ai": {
-    "title": "Artificial intelligence. Very human standards.",
-    "intro": "Give me a million possibilities. I’ll find the one that actually works.",
-    "detail": "I’ve developed a bespoke, art-directed AI image workflow built around the things a creative notices: believable texture, deliberate lighting, recognisable character and a composition that earns its place. The technology expands what’s possible. My judgement makes it useful.",
+    "title": "Generating Reality.",
+    "intro": "I wanted images that could stand up to an art director’s eye. So I built a custom AI image-generation system around one very human obsession: making the imagined feel real.",
+    "detail": "This is a bespoke image-generation system developed around my own creative standards. Believable skin. Materials with character. Light that belongs in the scene. From the expression on a face to the texture of a surface, the aim is to bring the discipline of photography and art direction into every generated image. It gives me the freedom to create ambitious visuals with a consistent point of view, shaped for the brief and refined beyond the first result. The technology opens the possibilities. My eye decides what makes the cut.",
     "printNote": "Large-format artwork can be prepared to a specified print brief, including 500 dpi where the agreed dimensions and source detail support it. Every deliverable is assessed at its intended output size.",
     "hero": "/assets/ai/best-image.webp",
     "heroAlt": "Detailed studio portrait of a bearded man",

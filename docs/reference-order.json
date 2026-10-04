@@ -1,0 +1,899 @@
+{
+  "reference": "https://a21731935.myportfolio.com/work",
+  "reviewed": "2026-10-04",
+  "method": "All 146 source thumbnails matched to local gallery files using normalized 32x32 RGB and aspect ratio; source order matched every local gallery. Text and videos restored as interleaved sections. Whitespace normalized; wording preserved. Art video omitted at owner request.",
+  "projects": {
+    "build-it": [
+      {
+        "source_index": 0,
+        "gallery_index": 0,
+        "distance": 5.1e-05,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/01b7bf40-9317-4327-8615-6a1efa655192_rw_600.jpg?h=117f3e0164d036c1cdbcff9fa5b2e99b"
+      },
+      {
+        "source_index": 1,
+        "gallery_index": 1,
+        "distance": 4.9e-05,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/2d20493a-63f6-4250-a2e1-d46254bf8027_rw_600.jpg?h=51f2535d384f96c191ca00b1d8d139dd"
+      },
+      {
+        "source_index": 2,
+        "gallery_index": 2,
+        "distance": 1.6e-05,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/c84df936-44d1-4460-913c-85da0af4733a_rw_600.jpg?h=230f6b3c550570a70e220ba677bf98b4"
+      },
+      {
+        "source_index": 3,
+        "gallery_index": 3,
+        "distance": 1.3e-05,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/ac999319-b7b5-4f26-81a2-45695b6b55fc_rw_600.png?h=34b2daafbcbe771b6398b3bf298f6dcb"
+      },
+      {
+        "source_index": 4,
+        "gallery_index": 4,
+        "distance": 9e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/e43e254d-d2ae-4b84-b96a-26a5cb67c06b_rw_600.png?h=05ebffa537c74f834dc6aaaceb090536"
+      },
+      {
+        "source_index": 5,
+        "gallery_index": 5,
+        "distance": 0.000274,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/e73962ec-5fb5-4cb5-8461-58cf1cb9ece1_rw_600.png?h=f653712ccc1cdd0ea62efadce68730a9"
+      },
+      {
+        "source_index": 6,
+        "gallery_index": 6,
+        "distance": 0.000273,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/2eaa5e79-f2bb-4173-a21a-97ff0244a917_rw_600.png?h=af6940b1dcf2967bfd8f4df1861c891c"
+      },
+      {
+        "source_index": 7,
+        "gallery_index": 7,
+        "distance": 6e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/2e29f670-82c0-4f32-9726-3ee8f987dd72_rw_600.JPG?h=6c499fe68aeb69d3e8c7a8fd1ba4e78a"
+      },
+      {
+        "source_index": 8,
+        "gallery_index": 8,
+        "distance": 4e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/921751fd-8be3-4e5d-b559-d318da42e363_rw_600.JPG?h=f9a323538a5327fabad906f7ac57f4f5"
+      },
+      {
+        "source_index": 9,
+        "gallery_index": 9,
+        "distance": 6.4e-05,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/56a0f29a-3b50-492e-8891-e237b58457dd_rw_600.jpg?h=806600cc802f00cc3d983bcc71d2e300"
+      },
+      {
+        "source_index": 10,
+        "gallery_index": 10,
+        "distance": 7e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/ab6a3c31-7045-4ede-a019-56f8f01cadab_rw_600.jpg?h=c1bcb2c3d449c2bd0626509678d4b0ec"
+      },
+      {
+        "source_index": 11,
+        "gallery_index": 11,
+        "distance": 8e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/3add3eb2-36b8-42a8-bb57-419b5a42ef99_rw_600.jpg?h=ee5d217a43f51a5d2aec3c3545de43be"
+      },
+      {
+        "source_index": 12,
+        "gallery_index": 12,
+        "distance": 6e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/dfe51439-de4c-422a-a281-187f5e61ce05_rw_600.jpg?h=d0947378292faac9c0c2230551070423"
+      },
+      {
+        "source_index": 13,
+        "gallery_index": 13,
+        "distance": 7e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/a5911076-51ad-4657-b7c1-40a909ff2cca_rw_600.jpg?h=f671425681f3ce317fde11299a335eeb"
+      },
+      {
+        "source_index": 14,
+        "gallery_index": 14,
+        "distance": 7e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/5d9d8c63-37ba-4887-a9c6-f8e92935d0cf_rw_600.jpg?h=da12c4b6d0d4244aec0b2dc9ba1f3b95"
+      },
+      {
+        "source_index": 15,
+        "gallery_index": 15,
+        "distance": 6e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/cee065ad-3705-4557-aac5-a1038f6f3677_rw_600.jpg?h=aeb9be825c1f735bc3b26fc99f152673"
+      },
+      {
+        "source_index": 16,
+        "gallery_index": 16,
+        "distance": 8e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/493bb1b6-041c-4b80-8a3f-9cbab4d8c3fc_rw_600.jpg?h=8a59114de58267a81a3469366e69706e"
+      },
+      {
+        "source_index": 17,
+        "gallery_index": 17,
+        "distance": 6e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/01a42648-67b3-4875-952e-1b24324c059c_rw_600.jpg?h=0eacd4da14ec94f532576e73b99fab87"
+      },
+      {
+        "source_index": 18,
+        "gallery_index": 18,
+        "distance": 6e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/05e5d52f-a9ad-4ad4-8f5f-aebf50371a4b_rw_600.jpg?h=2604a4e0111c241715af389b6fb5455b"
+      },
+      {
+        "source_index": 19,
+        "gallery_index": 19,
+        "distance": 7e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/85acb595-b6e1-4864-90a7-22ea5546669a_rw_600.jpg?h=4bb4139bb745d21edb6a594a54d860a4"
+      },
+      {
+        "source_index": 20,
+        "gallery_index": 20,
+        "distance": 7e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/882234c9-9331-4ea0-9b20-2f047362d0b7_rw_600.jpg?h=fcf60ae585e35ac576e34ef27e1939dc"
+      },
+      {
+        "source_index": 21,
+        "gallery_index": 21,
+        "distance": 6e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/8fa6bd7e-b566-4e4c-8a5a-a76f82005c53_rw_600.jpg?h=d112ea4a7107e2fa1578565ebcdc5826"
+      },
+      {
+        "source_index": 22,
+        "gallery_index": 22,
+        "distance": 7e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/4189f49c-2cf8-442f-9281-cba76b67dbb5_rw_600.jpg?h=3651f992d3c9ac4efe25271bfc278ad0"
+      }
+    ],
+    "spar": [
+      {
+        "source_index": 0,
+        "gallery_index": 0,
+        "distance": 1.8e-05,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/3211f827-f50f-49b3-9724-519fb1aebea3_rw_600.jpg?h=a23abab54dd76f97f1e894b9bb53cba0"
+      },
+      {
+        "source_index": 1,
+        "gallery_index": 1,
+        "distance": 7e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/147c57c3-478a-433d-8586-85a1c907af3a_rw_600.JPG?h=c3c79209aa8aad8007637a5d6826aa0d"
+      },
+      {
+        "source_index": 2,
+        "gallery_index": 2,
+        "distance": 4e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/e55601f0-826f-4cd1-a698-1fcbc7337787_rw_600.JPG?h=5915f8b4d152c03dd6692bf4a134ef36"
+      },
+      {
+        "source_index": 3,
+        "gallery_index": 3,
+        "distance": 7e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/be4a0d34-2ef4-41c1-89f7-962a76be3a07_rw_600.JPG?h=05128b3efda38341e726eb666b11bed0"
+      },
+      {
+        "source_index": 4,
+        "gallery_index": 4,
+        "distance": 8e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/0d1fe1a2-59ec-49ad-b2d5-d2453db31e59_rw_600.JPG?h=719c45cf4f42cd0624073142c7ce95ec"
+      },
+      {
+        "source_index": 5,
+        "gallery_index": 5,
+        "distance": 1.4e-05,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/00ccd1f2-a723-4cdc-821d-8afdebb979c7_rw_600.JPG?h=e3531ed4f0215273e4b5d6ee766f6c44"
+      },
+      {
+        "source_index": 6,
+        "gallery_index": 6,
+        "distance": 2e-05,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/bc1eb647-0f39-42b2-8b3c-c0ba34bbe7eb_rw_600.JPG?h=3b89580e2350dcd00cd6b598d5efb4d5"
+      },
+      {
+        "source_index": 7,
+        "gallery_index": 7,
+        "distance": 5e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/5818ee3e-cd57-4583-ac97-cb0a27223a9d_rw_600.JPG?h=45be1fd259cfb26f161f3eed183b990d"
+      },
+      {
+        "source_index": 8,
+        "gallery_index": 8,
+        "distance": 9e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/beee2685-b195-4066-9929-782ccdf99858_rw_600.JPG?h=3491aab4e5b6e8e6c6c0aa8d7f443941"
+      },
+      {
+        "source_index": 9,
+        "gallery_index": 9,
+        "distance": 4e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/b2f66119-b765-4fed-b1c9-1fcc0f7a086a_rw_600.jpg?h=aabd27aae9fefce2e5217cd58a55674b"
+      }
+    ],
+    "websites": [
+      {
+        "source_index": 0,
+        "gallery_index": 0,
+        "distance": 1e-05,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/c0b71e66-5283-4e52-b1e8-cbbdff73cc64_rw_600.png?h=688846511ff8078106146f6749e78119"
+      },
+      {
+        "source_index": 1,
+        "gallery_index": 1,
+        "distance": 0.00028,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/c74185c8-d187-4c0c-bf75-d17eefb6ae8b_rw_600.png?h=a6c7b8058964dfdbddfc09d735e77117"
+      },
+      {
+        "source_index": 2,
+        "gallery_index": 2,
+        "distance": 0.000278,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/f52d7205-bad5-4823-a730-9b4255d0b271_rw_600.png?h=975fcc3a22b4258714e4855715f549ac"
+      },
+      {
+        "source_index": 3,
+        "gallery_index": 3,
+        "distance": 0.000281,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/510f6da5-bb9d-4b17-99a4-4b6b01776cc7_rw_600.png?h=d42663b24dd28464068d2e1c50f32047"
+      },
+      {
+        "source_index": 4,
+        "gallery_index": 4,
+        "distance": 0.000277,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/a1b563a3-9a15-4fe8-bc58-358335b2bdd9_rw_600.png?h=641102ebd7963943cafac0500f795130"
+      },
+      {
+        "source_index": 5,
+        "gallery_index": 5,
+        "distance": 0.000282,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/bae358cf-940f-4e36-aab6-a62f87ea23c8_rw_600.png?h=ce35f2425f57253da41529e83162e2bb"
+      },
+      {
+        "source_index": 6,
+        "gallery_index": 6,
+        "distance": 0.000275,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/f5fde36c-10ee-4f5b-b46d-aa4a1c05ce74_rw_600.png?h=7773ae2a1c8617a6179a2036a19586e6"
+      },
+      {
+        "source_index": 7,
+        "gallery_index": 7,
+        "distance": 0.000276,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/00ddd60f-efef-4325-90a0-4ff3faf638b0_rw_600.png?h=df61e2b4852e92d2d8e1228d3769b26d"
+      }
+    ],
+    "art-portfolio": [
+      {
+        "source_index": 0,
+        "gallery_index": 0,
+        "distance": 0.000401,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/be3214f7-9ec6-46b9-a9f1-4f12b3424380_rw_600.jpg?h=67cc7826f6f176839e1b7c11abef7ef1"
+      },
+      {
+        "source_index": 1,
+        "gallery_index": 1,
+        "distance": 0.000192,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/05f3523c-ca07-4c49-965f-d0bd1918633f_rw_600.jpeg?h=bf130095887be1aeb5df5783e4ecb408"
+      },
+      {
+        "source_index": 2,
+        "gallery_index": 2,
+        "distance": 0.000206,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/7480756a-6a36-4378-a13e-304177fa7a00_rw_600.jpeg?h=dbfd95f460134fa9f2615144e5d781aa"
+      },
+      {
+        "source_index": 3,
+        "gallery_index": 3,
+        "distance": 3.7e-05,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/d6ea7406-aeae-4f0a-8b9a-694660cc1a98_rw_600.jpeg?h=a8ed6f1450bab43ed470ca511362c827"
+      },
+      {
+        "source_index": 4,
+        "gallery_index": 4,
+        "distance": 4e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/a92b6fa9-af20-4c73-8371-8184a5fabd64_rw_600.jpeg?h=ff4dd922133e2ff59bb3e3f3380929db"
+      },
+      {
+        "source_index": 5,
+        "gallery_index": 5,
+        "distance": 3e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/8e054093-3fb5-42e7-a3b3-9068736a1429_rw_600.jpeg?h=69250d47eea9481c72c7f2da8795d9c7"
+      },
+      {
+        "source_index": 6,
+        "gallery_index": 6,
+        "distance": 6e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/ce148d88-3b9e-4d69-a94f-21766c54cf49_rw_600.jpeg?h=b94ab7fc0280a361dbef6ddab29fa1c9"
+      },
+      {
+        "source_index": 7,
+        "gallery_index": 7,
+        "distance": 5e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/f51724b3-37a3-4173-9672-18fc758f8c2b_rw_600.jpeg?h=a8753fd30d6b75d4baa3fa63862eed31"
+      },
+      {
+        "source_index": 8,
+        "gallery_index": 8,
+        "distance": 4.7e-05,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/da579915-cedf-484c-a754-13857c0769ab_rw_600.jpeg?h=70d95109ef818783e079583f2961270e"
+      },
+      {
+        "source_index": 9,
+        "gallery_index": 9,
+        "distance": 2.2e-05,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/11ba59ae-e3f5-4674-87c4-85fe09b51cf4_rw_600.jpeg?h=9ebed1e866f2954a19f114900eacc097"
+      },
+      {
+        "source_index": 10,
+        "gallery_index": 10,
+        "distance": 2.5e-05,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/2fee2309-331c-4bd3-b36c-62fb0cc4588d_rw_600.jpeg?h=77aff379c3b029dc66b28759ed216a61"
+      },
+      {
+        "source_index": 11,
+        "gallery_index": 11,
+        "distance": 2.1e-05,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/ba45818c-efe0-462d-969f-a4d3b51c0d24_rw_600.jpeg?h=40e7179ebeec8a855ddabd4b269f2713"
+      },
+      {
+        "source_index": 12,
+        "gallery_index": 12,
+        "distance": 4e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/40b1739d-a21f-44f8-9f95-803cd2da9a5b_rw_600.jpeg?h=3b644c58e740f4c1475e91b64f109a66"
+      },
+      {
+        "source_index": 13,
+        "gallery_index": 13,
+        "distance": 3e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/dc388f4f-671a-4fd0-be21-44203920da4e_rw_600.jpeg?h=fd44d18e73b654e340fe816c68ac5b24"
+      },
+      {
+        "source_index": 14,
+        "gallery_index": 14,
+        "distance": 7e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/c07481cf-ece6-4c45-8bf3-5adb38dcca32_rw_600.jpeg?h=1572abc7ff8077859e463d1b3a910723"
+      },
+      {
+        "source_index": 15,
+        "gallery_index": 15,
+        "distance": 5e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/e3d75a99-10c7-4c89-8e0b-657bc488e3bd_rw_600.jpeg?h=537a31865c3187956ed344d1558728d5"
+      },
+      {
+        "source_index": 16,
+        "gallery_index": 16,
+        "distance": 4e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/00484f5d-72f6-4d20-b75c-b26d8c6be1cb_rw_600.jpeg?h=d4bdfbab3bfa7e9ac75e7a6a685af91e"
+      },
+      {
+        "source_index": 17,
+        "gallery_index": 17,
+        "distance": 3e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/2ec3ff32-d4a1-4317-a4a8-c8934a1e2901_rw_600.jpeg?h=e38dce61829af897aefaf7f6158d6e6e"
+      },
+      {
+        "source_index": 18,
+        "gallery_index": 18,
+        "distance": 5e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/e178809a-2706-4c10-b751-e815d8d104d0_rw_600.jpeg?h=29684353172b03a5fbc7c9ecad8dd1f2"
+      },
+      {
+        "source_index": 19,
+        "gallery_index": 19,
+        "distance": 6e-05,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/ef29e41a-5fe5-4145-b789-ab079109c395_rw_600.jpeg?h=396489f99713797bdd80c38c7106b75e"
+      },
+      {
+        "source_index": 20,
+        "gallery_index": 20,
+        "distance": 3e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/5260cdf9-0c38-4fe4-8dde-99abd452bfb7_rw_600.jpeg?h=447ae443f8e2c9eb69b39c5521c3253f"
+      },
+      {
+        "source_index": 21,
+        "gallery_index": 21,
+        "distance": 3e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/c6d41724-1dd9-407d-96fb-206f23234d58_rw_600.jpeg?h=1478eb3909d63fc339dc415245e77750"
+      },
+      {
+        "source_index": 22,
+        "gallery_index": 22,
+        "distance": 4e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/832dba5d-1750-4eed-a788-56c87186c4dc_rw_600.jpeg?h=751d02f12b337c2e150a9325182b6fc9"
+      },
+      {
+        "source_index": 23,
+        "gallery_index": 23,
+        "distance": 4e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/9bf61297-4184-4181-9b40-2f74db337240_rw_600.jpeg?h=f6821971ef06b219f4804a7558f58024"
+      }
+    ],
+    "build-it-convention-2023": [
+      {
+        "source_index": 0,
+        "gallery_index": 0,
+        "distance": 6e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/82bcc573-1786-414f-9d6c-8247f3f662e4_rw_600.jpg?h=f240ebc62a3766c8d3fe098411a322fd"
+      },
+      {
+        "source_index": 1,
+        "gallery_index": 1,
+        "distance": 2.6e-05,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/29354f5e-0962-46c2-82ff-90087a646757_rw_600.jpg?h=26cc498b5b49ec3824b393e13835bd4a"
+      },
+      {
+        "source_index": 2,
+        "gallery_index": 2,
+        "distance": 4e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/4241d507-3f2f-485e-ae86-c5144ce3f6b5_rw_600.jpg?h=471a05f79695f029f3fa49f29b37b971"
+      },
+      {
+        "source_index": 3,
+        "gallery_index": 3,
+        "distance": 4e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/34d7b7dc-3fcd-4de7-9b0f-5398d636358b_rw_600.jpg?h=3abd4cba0e20567a4968c61ced21f372"
+      },
+      {
+        "source_index": 4,
+        "gallery_index": 4,
+        "distance": 4e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/53f28fb1-fe3e-4387-a329-6f9bbad7a275_rw_600.jpg?h=8a7d0cbfea1450883296a1471d7cae23"
+      },
+      {
+        "source_index": 5,
+        "gallery_index": 5,
+        "distance": 4e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/79baa29b-c819-41b9-9c06-68eb657037e0_rw_600.jpg?h=0b7882f4a4da7cf88d68d6e562f290e1"
+      },
+      {
+        "source_index": 6,
+        "gallery_index": 6,
+        "distance": 4e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/27918e7d-0509-43bf-a5ad-f4473c32e115_rw_600.jpg?h=dd37d0bf2ef4820703e5165468ad0935"
+      },
+      {
+        "source_index": 7,
+        "gallery_index": 7,
+        "distance": 9e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/e9981222-0ec1-4b0a-a4e9-1030a8821db7_rw_600.jpg?h=285a106fcfba02e2e1d6645496e9d63e"
+      },
+      {
+        "source_index": 8,
+        "gallery_index": 8,
+        "distance": 5e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/c8c19c19-4f47-4a93-8cfe-9c479e802c55_rw_600.jpg?h=82120caea3aef889abc031f88750cb16"
+      },
+      {
+        "source_index": 9,
+        "gallery_index": 9,
+        "distance": 6e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/cd810e38-4bcd-431a-b170-ba0d7c0cb7ca_rw_600.jpg?h=ad558e78847600421f2a57af996a050c"
+      },
+      {
+        "source_index": 10,
+        "gallery_index": 10,
+        "distance": 4e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/52265400-251d-4d7b-8822-47a9346fa2c6_rw_600.jpg?h=b2964929f22e9f9c46f7a50cc2adbcac"
+      },
+      {
+        "source_index": 11,
+        "gallery_index": 11,
+        "distance": 4e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/4de02fdc-c111-40e7-964c-7c6f6f1bf3ed_rw_600.jpg?h=d3a18e37f7d4d6b72ef407530d856c1d"
+      },
+      {
+        "source_index": 12,
+        "gallery_index": 12,
+        "distance": 8e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/ba0c8264-6aa2-4941-923c-c8fcc7386f90_rw_600.jpg?h=6477f049d80647dee67573ec9b4fef5b"
+      },
+      {
+        "source_index": 13,
+        "gallery_index": 13,
+        "distance": 4e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/39b187c5-08b1-4fe3-b972-2ba2a0d409f0_rw_600.jpg?h=08aeb2fa406140fbc32eb0950fbbd562"
+      },
+      {
+        "source_index": 14,
+        "gallery_index": 14,
+        "distance": 5e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/df53b452-ef05-410a-9af1-45a972eb262b_rw_600.jpg?h=f946bc04e3c54bd7f8fa77534e525208"
+      },
+      {
+        "source_index": 15,
+        "gallery_index": 15,
+        "distance": 5e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/6824210a-78d0-4fcb-bb13-5c5f2d9ab13d_rw_600.jpg?h=b4780ee12cda2e288df7d255a4bc2a30"
+      },
+      {
+        "source_index": 16,
+        "gallery_index": 16,
+        "distance": 7e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/f5e29d46-97bf-41c1-a98f-b21199d558c5_rw_600.jpg?h=82a9567b46708adaf3cc0cec9c108ee8"
+      },
+      {
+        "source_index": 17,
+        "gallery_index": 17,
+        "distance": 4e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/b539ab4f-bb53-4da6-b875-709a3b950d57_rw_600.jpg?h=757ddbc5b05ef9be85a78df3b696dd96"
+      },
+      {
+        "source_index": 18,
+        "gallery_index": 18,
+        "distance": 7e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/9875b404-7cbd-4cf9-a25c-34e0e2a05020_rw_600.jpg?h=d6bd5aa0b3973597f64427962d5adad8"
+      },
+      {
+        "source_index": 19,
+        "gallery_index": 19,
+        "distance": 3e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/5253d54e-e8bc-4d1c-86d2-4d4e86e4ee58_rw_600.jpg?h=2993bd554475783d9b6f49a491e97631"
+      },
+      {
+        "source_index": 20,
+        "gallery_index": 20,
+        "distance": 4e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/e89d9b70-923c-462b-b893-1e79063b3958_rw_600.jpg?h=14dac722f0c8f6f4af68d2ea82e71c13"
+      },
+      {
+        "source_index": 21,
+        "gallery_index": 21,
+        "distance": 4e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/4f167574-6f69-40ba-a73f-f02334465f41_rw_600.jpg?h=035cd146474ac5a4fd7cdbc1f9a74450"
+      },
+      {
+        "source_index": 22,
+        "gallery_index": 22,
+        "distance": 4e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/94be329b-cda4-4a2e-818b-ecad18e1e9d4_rw_600.jpg?h=378ee0a9bda0a12bc5d018577819c158"
+      },
+      {
+        "source_index": 23,
+        "gallery_index": 23,
+        "distance": 4e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/163ed5ae-d0df-4655-8f4d-7791edfaefa4_rw_600.jpg?h=507b6d4a7b1d0769180e12019f97d3aa"
+      },
+      {
+        "source_index": 24,
+        "gallery_index": 24,
+        "distance": 4e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/3a9d5821-6dea-4790-9cbf-93976f98ebec_rw_600.jpg?h=9322834393cfb4d9e855935731c24fd1"
+      },
+      {
+        "source_index": 25,
+        "gallery_index": 25,
+        "distance": 3e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/9ccc5589-979e-43e1-a96c-d5eec4c06b07_rw_600.jpg?h=6db7090a15fc17164ddcabff0ce8d958"
+      },
+      {
+        "source_index": 26,
+        "gallery_index": 26,
+        "distance": 4e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/8105ce94-17c3-471f-a1f1-42b805e5d2b5_rw_600.jpg?h=71fad5559378060924bbe31929e655ed"
+      },
+      {
+        "source_index": 27,
+        "gallery_index": 27,
+        "distance": 4e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/29a3d7c2-c52c-4059-8e5c-07b837f14e68_rw_600.jpg?h=df052db97f68fe92b4a4f5e9e13fce5b"
+      },
+      {
+        "source_index": 28,
+        "gallery_index": 28,
+        "distance": 5e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/5b4fd2d0-0ffb-45c8-9803-53c51883a638_rw_600.jpg?h=e990751b1d220e956a633cc841e13fcd"
+      },
+      {
+        "source_index": 29,
+        "gallery_index": 29,
+        "distance": 4e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/3d4b6a86-2caa-41ce-b2f3-6e28dd72692f_rw_600.jpg?h=d055431d1889f2bee9289da2be6411b2"
+      },
+      {
+        "source_index": 30,
+        "gallery_index": 30,
+        "distance": 4e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/be782e77-6443-4681-b321-55f5bbc5d020_rw_600.jpg?h=cee3b12fce1d2a2c6ffb00a02bdbc80a"
+      },
+      {
+        "source_index": 31,
+        "gallery_index": 31,
+        "distance": 0.000164,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/2d671d04-64ca-4fde-921e-8da80093966e_rw_600.jpg?h=dfb7a56163aba06f4115da5d86ce713a"
+      },
+      {
+        "source_index": 32,
+        "gallery_index": 32,
+        "distance": 3e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/21e32e25-6a85-464c-bcf7-3f0e1655d7f5_rw_600.jpg?h=a4ec10c11197a5c4f43ba35191fcd58e"
+      },
+      {
+        "source_index": 33,
+        "gallery_index": 33,
+        "distance": 0.000324,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/7861f5c9-31b5-440f-a1a6-30471cb59f36_rw_600.jpg?h=c9587e0c9256b1944899d0e75342a272"
+      }
+    ],
+    "ph4ge": [
+      {
+        "source_index": 0,
+        "gallery_index": 0,
+        "distance": 0.000221,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/b06b2fd4-1832-43a5-95c4-bad6c36bdf95_rw_600.jpg?h=57d9855fa56c2f26f94e89d0e888096a"
+      },
+      {
+        "source_index": 1,
+        "gallery_index": 1,
+        "distance": 0.000187,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/65918c84-3fcf-48d8-a75f-a4df50446cc7_rw_600.jpg?h=120f05f50898d31ef65e1e091fbb5501"
+      },
+      {
+        "source_index": 2,
+        "gallery_index": 2,
+        "distance": 8.6e-05,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/080d2f6a-82dc-4348-94f3-9e315a486bf3_rw_600.jpg?h=f6d89134d52672b304d57cb7a521275c"
+      },
+      {
+        "source_index": 3,
+        "gallery_index": 3,
+        "distance": 0.000643,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/b07ed450-0f59-410a-998d-a9f1eb83bef5_rw_600.png?h=585b3d41739949c50e81e097c74f72e9"
+      },
+      {
+        "source_index": 4,
+        "gallery_index": 4,
+        "distance": 6e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/20b4a348-1f8c-4343-aac8-e8c1e298b7c9_rw_600.png?h=eb461a794b3880c074fc0ffac0103b14"
+      },
+      {
+        "source_index": 5,
+        "gallery_index": 5,
+        "distance": 0.000267,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/8c690afb-0f57-42cb-a776-214a8b3646d7_rw_600.png?h=041946d4e420aef84d9061ea80050e5c"
+      },
+      {
+        "source_index": 6,
+        "gallery_index": 6,
+        "distance": 0.000268,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/cde8b39a-68b8-4fcd-89c8-8e0042e0f1c4_rw_600.png?h=ca1af5b0a9ed29369b4e2ef0f360b6d1"
+      }
+    ],
+    "tops-at-spar": [
+      {
+        "source_index": 0,
+        "gallery_index": 0,
+        "distance": 0.000276,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/d8658f40-d446-400a-887f-f7192694b21f_rw_600.png?h=ac4d4137bfe83db36c5cb3f0fc3d627b"
+      },
+      {
+        "source_index": 1,
+        "gallery_index": 1,
+        "distance": 6e-06,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/bb091ea9-88a2-4c99-945a-9ae594c80126_rw_600.png?h=394cba94f93606e09ee49981cbe2bfc2"
+      },
+      {
+        "source_index": 2,
+        "gallery_index": 2,
+        "distance": 0.000276,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/9bff5a34-12eb-4b80-8e97-a91c6f35ac1d_rw_600.png?h=695fd3b99d4e3f15f16965a347208cc7"
+      },
+      {
+        "source_index": 3,
+        "gallery_index": 3,
+        "distance": 0.000275,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/0bc2e452-6533-42d6-914e-437324c0e240_rw_600.png?h=5546ce9378a48a66f97e3822e4a8c764"
+      },
+      {
+        "source_index": 4,
+        "gallery_index": 4,
+        "distance": 0.000271,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/78fc22fa-57c9-4118-a3e9-a4ba82e2cd51_rw_600.png?h=7ac988823dbf59b51c4e2f72a7942998"
+      },
+      {
+        "source_index": 5,
+        "gallery_index": 5,
+        "distance": 0.00027,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/adb748ce-9453-49a6-b3c5-2201bea7ab75_rw_600.png?h=47bcce54d1a00ebc8f1bf9de4ef825b9"
+      },
+      {
+        "source_index": 6,
+        "gallery_index": 6,
+        "distance": 0.000269,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/d2f4c913-a7a7-486f-9a1f-0f6fd54c379e_rw_600.jpg?h=bb0bdcf4fd42e52a1eb2d9bcf211be74"
+      },
+      {
+        "source_index": 7,
+        "gallery_index": 7,
+        "distance": 6.8e-05,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/e758a9bf-598d-4dee-9b12-6c407043568a_rw_600.png?h=3af97cd51e66c11c7e0ef5130f910e9a"
+      }
+    ],
+    "individual-projects": [
+      {
+        "source_index": 0,
+        "gallery_index": 0,
+        "distance": 0.000269,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/b2a440f0-ac7c-4122-a874-f7631697a604_rw_600.jpg?h=9ee21769ce69391c0664dddd81e7a611"
+      },
+      {
+        "source_index": 1,
+        "gallery_index": 1,
+        "distance": 0.000268,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/1675b43a-badf-429d-86ea-c59ff2e6ba5a_rw_600.jpg?h=c4366167051018c37734379ca7120265"
+      },
+      {
+        "source_index": 2,
+        "gallery_index": 2,
+        "distance": 0.000273,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/c63437a6-f478-491f-9da3-f8a1fe88ef7a_rw_600.jpg?h=ade088c30b23a7c29693c97a5f761ca3"
+      },
+      {
+        "source_index": 3,
+        "gallery_index": 3,
+        "distance": 0.000268,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/0a1d3d4b-f92c-4468-a05c-69adcf265dd7_rw_600.jpg?h=638750676d872d6d8dd01bb57f0e925c"
+      },
+      {
+        "source_index": 4,
+        "gallery_index": 4,
+        "distance": 0.000268,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/e83661ab-8713-4b30-a77e-a859ef368f55_rw_600.jpg?h=840dde42dccb575f7806e878e9428fb2"
+      },
+      {
+        "source_index": 5,
+        "gallery_index": 5,
+        "distance": 0.000267,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/5f473a77-b9fc-41a5-bacf-1771a8f1549e_rw_600.jpg?h=199d24dd9474f0116a221ca3aa53b614"
+      },
+      {
+        "source_index": 6,
+        "gallery_index": 6,
+        "distance": 0.000272,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/d0aa0d30-c5c1-438d-976a-35d1a52a68e0_rw_600.jpg?h=e96bf6ca80f573e8a6b128ea35e1bfaa"
+      },
+      {
+        "source_index": 7,
+        "gallery_index": 7,
+        "distance": 0.000277,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/900a5bfa-6ec4-40d3-a3a1-0736fb5176d9_rw_600.jpg?h=a75ed9f57c8420fdd68dc9b352324de9"
+      },
+      {
+        "source_index": 8,
+        "gallery_index": 8,
+        "distance": 0.000267,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/8b5f13d3-9433-4f08-8d0e-66dc873deac8_rw_600.jpg?h=8a8895b7c0e27b1b9f7bc3a754cb1a55"
+      },
+      {
+        "source_index": 9,
+        "gallery_index": 9,
+        "distance": 0.000267,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/48c71eeb-e6fb-4043-828d-a9ef814ee944_rw_600.jpg?h=68b054f8205c71c6bc3cd25f2572569a"
+      },
+      {
+        "source_index": 10,
+        "gallery_index": 10,
+        "distance": 0.000269,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/89fefa47-9580-48f1-87ea-6b141b9e0053_rw_600.jpg?h=e01247e4230cfd68d663966913d59207"
+      },
+      {
+        "source_index": 11,
+        "gallery_index": 11,
+        "distance": 0.000268,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/beb1b6fc-27a9-4204-ba98-2fda73b92fb9_rw_600.jpg?h=aecc375933ab95e835564240755cd991"
+      },
+      {
+        "source_index": 12,
+        "gallery_index": 12,
+        "distance": 0.00027,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/c94d7aad-2177-401c-b840-bd3f9574bc74_rw_600.jpg?h=115ce86149ad015fb787358ee01d93d2"
+      },
+      {
+        "source_index": 13,
+        "gallery_index": 13,
+        "distance": 0.00027,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/136d43cb-3dd0-4a57-8899-bc68d17f39b2_rw_600.jpg?h=6acfefb76357932d4b87d02eed0a22f5"
+      },
+      {
+        "source_index": 14,
+        "gallery_index": 14,
+        "distance": 0.00027,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/28bdfdad-cede-4c65-a40b-aa1cdcbbd33c_rw_600.jpg?h=26bc456ae278e6dc18fcefe82d354180"
+      },
+      {
+        "source_index": 15,
+        "gallery_index": 15,
+        "distance": 0.000273,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/bebe03c6-c357-45de-8085-f23f215947de_rw_600.jpg?h=7f336f6b497257959de98ea1f594a7be"
+      },
+      {
+        "source_index": 16,
+        "gallery_index": 16,
+        "distance": 0.000265,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/ddf0b349-3709-4a3e-b103-f5df9a839630_rw_600.jpg?h=7e75c5be5297346ac63a5be236c6d45a"
+      },
+      {
+        "source_index": 17,
+        "gallery_index": 17,
+        "distance": 0.000265,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/cf9c169f-b59e-4a6f-acc6-73355f0e5754_rw_600.jpg?h=8b3dfbe6de6a491d516a22f2e51a4383"
+      },
+      {
+        "source_index": 18,
+        "gallery_index": 18,
+        "distance": 0.000264,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/ca68748d-8cc0-4415-9375-d3e27db3f826_rw_600.jpg?h=b8a532c6baf82d2c434339e41dddf15f"
+      },
+      {
+        "source_index": 19,
+        "gallery_index": 19,
+        "distance": 0.000268,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/fc1b2068-6542-4ca7-8387-e52cd573e8e8_rw_600.jpg?h=ad09dfb7dcaea5f43a95de2b77477013"
+      },
+      {
+        "source_index": 20,
+        "gallery_index": 20,
+        "distance": 0.000267,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/a5765419-12db-49e0-90ee-128b489f472d_rw_600.jpg?h=0263305801edb346335c9cbbda9797a2"
+      },
+      {
+        "source_index": 21,
+        "gallery_index": 21,
+        "distance": 0.000274,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/6930f915-ca8e-4312-bba6-cbc3cacb13f3_rw_600.jpg?h=bec88a5ee4bf2558e16944e3adbd5cbc"
+      },
+      {
+        "source_index": 22,
+        "gallery_index": 22,
+        "distance": 0.000269,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/3d775a59-2bea-4bcd-a892-6012cfe28017_rw_600.jpg?h=0319abec9309497c1a8fc9c090bc6a90"
+      },
+      {
+        "source_index": 23,
+        "gallery_index": 23,
+        "distance": 0.000274,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/e1f837fe-534e-4403-946d-de5fc8f4ba8d_rw_600.jpg?h=7dc5e27b1611e944cfe933bf79875de1"
+      },
+      {
+        "source_index": 24,
+        "gallery_index": 24,
+        "distance": 0.000269,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/78f46512-a13e-478c-a797-72cb8a9eb95e_rw_600.jpg?h=8c1e3a5355555b87915848f3c6f90fed"
+      },
+      {
+        "source_index": 25,
+        "gallery_index": 25,
+        "distance": 0.000269,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/a07c295f-e2da-404d-88cb-a49cb6e7e6ff_rw_600.jpg?h=f1c632f9a99045979d62107654c0d775"
+      },
+      {
+        "source_index": 26,
+        "gallery_index": 26,
+        "distance": 0.000269,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/1cd7bca5-6249-4555-a87f-60c1f94a8ac8_rw_600.jpg?h=51db3328df0d6db62c3075f1bec2a11c"
+      },
+      {
+        "source_index": 27,
+        "gallery_index": 27,
+        "distance": 0.000266,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/6c25dabf-9e76-4a26-8614-28d7102dddd5_rw_600.jpg?h=130682ed1faffcbb3b493abcd0dc47de"
+      },
+      {
+        "source_index": 28,
+        "gallery_index": 28,
+        "distance": 0.000267,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/92c38364-be9e-4665-a6e6-c221b38a4c7f_rw_600.jpg?h=5a16636d09eb52ca440201883b853fc2"
+      },
+      {
+        "source_index": 29,
+        "gallery_index": 29,
+        "distance": 0.000267,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/1d4d1ca7-e3f0-4afc-b062-4b133fbdc4b0_rw_600.jpg?h=2789edb9e4be84f60be387f716dc4e8b"
+      },
+      {
+        "source_index": 30,
+        "gallery_index": 30,
+        "distance": 0.000266,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/78aa60fe-f049-4824-b7aa-f9dfc6c27f50_rw_600.jpg?h=b1641ddf9defe5cd0ff56ab95f21ac07"
+      },
+      {
+        "source_index": 31,
+        "gallery_index": 31,
+        "distance": 0.000266,
+        "source": "https://cdn.myportfolio.com/4b9f115b-7011-4a26-92ed-7ec3ee663a00/efc85e3c-749e-4bfa-b24f-58cc65060c99_rw_600.jpg?h=79a6595e8162061da0aa1cef03eb7f38"
+      }
+    ]
+  }
+}

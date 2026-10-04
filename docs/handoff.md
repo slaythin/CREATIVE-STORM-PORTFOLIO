@@ -1,52 +1,35 @@
-# Creative Storm handoff
+# Creative Storm handoff — 4 October 2026
 
-This is Nathin Pillay's portable portfolio project. It continues the imported content from the original Site and the approved midnight tornado artwork. Start with README.md for setup and docs/verification.md for test evidence.
+Nathin Pillay's portable portfolio continues the approved storm and imported Adobe Portfolio content. Read README.md for setup and docs/verification.md for evidence. Latest requested changes are listed in docs/revision-2026-10-04.md.
 
-## Project structure
+## Current structure
 
-- `src/components/portfolio.tsx`: public pages, galleries, CV layouts and vortex-to-grid transition.
-- `src/components/atmosphere.tsx`: hybrid WebGL storm, 3D mist, lightning and motion lifecycle.
-- `src/components/neural-scene.ts`: instanced organic cells, tapered branching dendrites and electrical propagation.
-- `src/storm.css`: graphite, silver, glass and responsive design overrides.
-- `src/components/studio.tsx`: visual content editor.
-- `src/data/content.json`: published content; `public/content.json` is its built copy.
-- `public/assets`: local portfolio images, brand marks, original CV and approved storm plate.
-- `server`: loopback-only editor API, upload handling and local production server.
-- `scripts/routes.mjs`: direct HTML folders for project and CV URLs.
+- `src/components/portfolio.tsx`: nine-card home vortex, work index, ordered galleries, original CV and single-screen Mind page.
+- `src/components/atmosphere.tsx`: stable storm plate, perspective mist/dust and localized lightning.
+- `src/components/neural-scene.ts`: interactive 3D neural geometry and electrical propagation.
+- `src/storm.css`: graphite/glass styling and responsive layout refinements.
+- `src/components/studio.tsx`: local visual editor, including editable/reorderable project sections.
+- `src/data/content.json`: published content; build copies it to `public/content.json`.
+- `server`: loopback-only editor API, image uploads and production preview.
+- `scripts/routes.mjs`: direct HTML routes and redirect from the retired alternative CV.
+- `scripts/prepare.mjs`: checks every referenced local asset exists and is nonempty before building.
 
 ## Preserve
 
-Keep all imported artwork, captions, descriptions and original video embeds. Both `/cv` and `/cv/alternate` remain available for the owner's comparison. Keep the private repository private. Do not change the original hosted Site's owner-private audience.
+Eight projects, 146 original gallery images and six non-art film embeds. Original descriptions and media sequence were audited against the reference; see docs/reference-order.json. Keep the requested removal of the painting video. The AI section has 14 supplied pipeline images and two comparisons; BEST IMAGE remains the AI hero, cover and first gallery entry. Original CV is the sole CV layout and appears at right on The Mind page. `/cv/alternate` only redirects old bookmarks.
 
-The user does not authorize remote desktop software installation on their computer. This project runs in VS Code or can be built and hosted from GitHub.
+The tornado uses a stable photograph plus real 3D mist/dust, lightning and orbiting cards. It is not a volumetric fluid simulation. Preserve keyboard navigation, mobile/zoom scrolling, reduced motion and pause. Do not generate new artwork without a request, disclose proprietary AI steps, or claim universal superiority/perfect detail/unlimited print sizes.
 
-Do not expose proprietary AI workflow details or claim universal superiority, perfect detail or unlimited print sizes. Keep 500 dpi descriptions subject to dimensions and source detail. Use actual supplied images for any before/after comparison.
+Repository visibility and hosting access settings must remain unchanged. GitHub reported the repository public and Pages enabled before this revision; that change was made by the owner. The separate original Site remains owner-private and has not been modified: https://nathin-creative-storm.nathinpillay.chatgpt.site.
 
-Nathin authorized one new continuation at 04:00 SAST on 3 October 2026. It is scheduled once. This supersedes the prior nights' cutoff and scheduling instructions. Do not create another session or continue through a second reset. Finish early if all concrete work is complete.
+## Deliver and deploy
 
-## Remaining review areas
+`npm run package` builds the source and ready-to-host ZIPs in downloads/. The ready-to-host ZIP supports double-click file opening, local fonts, embedded WebGL textures, complete galleries and hash navigation. No remote desktop installation is needed. The editable source requires Node.js and includes the local private Content Studio. A static hosted site cannot save editor changes; publish locally, rebuild and deploy.
 
-- Owner review of the visual direction, especially how closely the hybrid storm/neural scene matches the desired cinematic realism.
-- Broader real-device and Safari/Firefox testing before public launch.
-- Real external video playback and any final brand colour-master substitutions.
-- Owner review of the supplied original/pipeline pairings and image captions. All 17 supplied Drive images are now included as optimized web assets.
+Existing Pages site: https://slaythin.github.io/CREATIVE-STORM-PORTFOLIO/. Use the compiled deployment workflow after the Check and package portfolio workflow passes. Its configure-pages enablement is false: it does not enable a new site or change audience. Historical automatic deployments used legacy Jekyll; Settings → Pages → Source should be GitHub Actions. Verify the final served build after each deployment.
 
-The owner enabled GitHub Pages on 2 October 2026. Its initial Jekyll deployment incorrectly served uncompiled React source. The repair adds a compiled deployment workflow for that existing Pages site. Repository privacy and the original owner-private Site remain unchanged. Read the latest verification entry for the actual deployment result.
+## Review limits
 
-## Download handoff
+Chromium/software rendering has been tested. Safari, Firefox, real-device performance and third-party video streaming playback remain unverified. The original videos are preserved remote embeds and require internet access. Print masters remain in the user's Drive folder; web assets are optimized copies.
 
-Run `npm run package` to build both ZIP downloads into `downloads/`. This uses only Node's standard library. The source package includes the full local Studio. The ready-to-host package includes `serve.mjs` for previewing without installing dependencies. Both include `START-HERE.txt`.
-
-The check workflow builds the same packages after verification. The separate deploy workflow targets an already enabled Pages site and never enables hosting itself. Workflow download artifacts last 30 days; source and assets remain in the private repository.
-
-## Blank-screen repair
-
-The ready-to-host build now supports both direct file opening and HTTP hosting. Production code is one classic IIFE bundle with embedded fonts; direct-file mode loads embedded storm/neural textures and uses hash navigation. Every route includes a relative site-root marker. Published content is bundled for file previews. Content Studio still requires its local server. The source entry has a visible fallback instead of an empty white document. `tests/open-files.cjs` tests real file URLs without relaxed file-access/browser-security flags.
-
-Pages deployment is defined in `.github/workflows/deploy-pages.yml` and runs after successful checks. Recommended Pages source: GitHub Actions. It uploads only `dist`. Do not publish the source tree, change repository privacy or alter the original Site.
-
-## AI image selection
-
-The shared Drive folder is documented in `docs/ai-assets.json`. Its BEST IMAGE.png is the AI hero, work-grid card, home-page AI image and first gallery entry. All 14 pipeline images are included. Three originals are used in side-by-side comparisons, with an optional overlay slider. The Studio exposes the hero and gallery controls. Preserve the existing eight imported projects separately.
-
-Latest hosting observation (2 October, 23:40 SAST): repository API `has_pages` is false and the previous URL is HTTP 404. The downloadable build is verified. Do not claim the live site is fixed or automatically enable a new site. The owner needs Settings → Pages → Source: GitHub Actions, then the Deploy portfolio workflow can run. Check run 37068019741 is for the tested code repair d2b7cc0.
+The one authorized post-reset continuation was used on 4 October. No further scheduled continuation is authorized or needed. The user manually requested continued handover work at 21:52 SAST. See the latest verification entry for save/deployment status.

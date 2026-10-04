@@ -56,8 +56,8 @@ To create a deployment: npm run build
 To recreate these two download packages: npm run package
 
 All portfolio images and fonts are bundled. Original video embeds require internet.
-Read README.md for editing, both CV pages, motion controls and hosting instructions.
-Your repository remains private. No public hosting is enabled automatically.
+Read README.md for editing, the original CV page, motion controls and hosting instructions.
+No repository visibility or hosting access settings are changed by this package.
 `;
 source.push({name:'START-HERE.txt',data:sourceGuide});
 const ready=await collect(path.join(root,'dist'));
