@@ -33,3 +33,7 @@ Existing Pages site: https://slaythin.github.io/CREATIVE-STORM-PORTFOLIO/. Use t
 Chromium/software rendering has been tested. Safari, Firefox, real-device performance and third-party video streaming playback remain unverified. The original videos are preserved remote embeds and require internet access. Print masters remain in the user's Drive folder; web assets are optimized copies.
 
 The one authorized post-reset continuation was used on 4 October. No further scheduled continuation is authorized or needed. The user manually requested continued handover work at 21:52 SAST. See the latest verification entry for save/deployment status.
+
+## Delivered revision — 5 October 2026
+
+Main 714a1b69abe027e061abf41e5017b91c908fbba2 contains the requested revisions and corrected pause checks. Check workflow 37275618505 and compiled deployment 37275914764 succeeded. Final notes are saved on handoff-2026-10-05 to avoid another legacy Jekyll deployment from a documentation-only main commit. The source ZIP includes these notes. Fresh live HTTPS and Chromium checks succeeded after configuring the test browser to use the workspace’s network proxy. See verification.md for exact scope and limits.

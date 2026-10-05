@@ -168,3 +168,27 @@ The revision is saved to GitHub. The extracted ready-to-host ZIP also passes the
 
 4 Oct 2026 · 21:57 SAST
 GitHub’s newer browser caught a pause-state issue that the local browser missed. I’m fixing that before deployment so the scene stays completely still when motion is paused, including when the browser redraws it.
+
+4 Oct 2026 · 21:59 SAST
+The pause fix passes locally, including a forced redraw test, and is saved to GitHub. I’ve rebuilt the downloads with that fix. The remaining check is GitHub’s clean browser run and the resulting live deployment.
+
+4 Oct 2026 · 22:01 SAST
+The updated download is ready, and GitHub’s browser checks are still running. I’m keeping the live-site verification open until the compiled deployment finishes, so the handover points to the revised version.
+
+5 Oct 2026 · 09:01 SAST
+I’m continuing from the saved revision. The remaining blocker is a pause-animation check that fails in GitHub’s browser. I’ll isolate whether the scene is moving or the screenshot check is capturing unrelated page changes, then finish the deployment and downloads.
+
+5 Oct 2026 · 09:03 SAST
+I found that the pause test was photographing the entire visible page through the background canvas’s bounds. I’ve isolated the storm layer so page content cannot affect that comparison, and kept the actual pause checks in place.
+
+5 Oct 2026 · 09:04 SAST
+The isolated storm images are pixel-identical while paused, including after a forced redraw. GitHub is now rerunning that corrected check; the design changes and downloadable build remain intact.
+
+5 Oct 2026 · 09:07 SAST
+GitHub’s full check suite has passed. The compiled website is deploying now; I’m checking the live pages next and refreshing the final handover files.
+
+5 Oct 2026 · 09:08 SAST
+The deployment succeeded. This workspace is blocking direct access to the live URL, so I’m separating that limitation from the checks that did pass: GitHub’s browser suite and the downloadable website. I’m finalising the files and delivery notes now.
+
+5 Oct 2026 · 09:09 SAST
+The live HTTPS checks have now succeeded: the homepage, Mind, AI lab and Build it pages all return the correct compiled build. I’m making one final browser check through the workspace’s network connection, then handing over the links.
