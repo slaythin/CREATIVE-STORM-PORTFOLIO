@@ -96,3 +96,5 @@ Deployment run 37275914764 succeeded for the tested revision on 5 October. The e
 
 ## CV update — 6 October 2026
 TypeScript, production build and six editor tests passed. The new JPEG is copied byte-for-byte from the attachment; the PDF embeds that JPEG on one proportionate page. Focused browser checks cover About me labels, retired Mind content, desktop/mobile overflow, image decode and the downloadable PDF response signature. The changed navigation and print checks replace the retired Mind-page assertions. Domain activation requires signed-in management access and is not represented as complete.
+
+Main 8e93ed1d66f96b36b4c1964c287edf8e44484b9c: GitHub check 37507855021 and compiled deployment 37508365768 succeeded. Live Chromium verified the About me navigation, Curriculum Vitae heading, new decoded CV image, exactly one PDF Download and no toolbar; no JavaScript errors. Domain settings remain pending Google passkey completion plus GoDaddy sign-in. Public DNS still shows A 13.248.243.5/76.223.105.230 and www CNAME nathin.org, using GoDaddy nameservers. No DNS changes were made.
