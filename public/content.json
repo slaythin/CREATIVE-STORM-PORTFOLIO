@@ -8,9 +8,10 @@
     "phone": "+27 63 919 8891",
     "location": "Durban, South Africa",
     "portrait": "",
-    "originalCV": "/assets/cv-original.jpg",
+    "originalCV": "/assets/nathin-cv-2026-v3.jpg",
     "showOriginalCV": true,
-    "showAlternateCV": false
+    "showAlternateCV": false,
+    "cvPDF": "/assets/nathin-cv-2026-v3.pdf"
   },
   "projects": [
     {

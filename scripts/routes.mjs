@@ -19,4 +19,4 @@ await writeFile('dist/404.html','<!doctype html><html lang="en"><meta charset="U
 console.log(`Created ${routes.length} direct content routes with file and HTTP support.`);
 
 await mkdir('dist/cv/alternate',{recursive:true});
-await writeFile('dist/cv/alternate/index.html','<!doctype html><html lang="en"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Original CV · Nathin Pillay</title><style>body{background:#080c12;color:#eef1f5;font:18px system-ui;padding:10vw}a{color:#bddfff}</style><script>location.replace(location.protocol==="file:"?"../../index.html#/cv":"../");</script><p><a href="../">Open the original CV</a></p></html>');
+await writeFile('dist/cv/alternate/index.html','<!doctype html><html lang="en"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>About me · Nathin Pillay</title><style>body{background:#080c12;color:#eef1f5;font:18px system-ui;padding:10vw}a{color:#bddfff}</style><script>location.replace(location.protocol==="file:"?"../../index.html#/cv":"../");</script><p><a href="../">Open About me</a></p></html>');
